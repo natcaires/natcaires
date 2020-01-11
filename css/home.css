@@ -1,0 +1,78 @@
+header, main {
+    margin: 0rem auto auto auto;
+    max-width: 800px;
+    
+}
+
+header {
+    font-size: 75px;
+    font-family: 'Fjalla One', sans-serif;
+    color: #ffffff;
+    background-color: #AA2244;
+    text-align: center;
+    margin: 0rem auto 0.5rem auto;
+    
+}
+
+#selfportrait {
+    width: 800px;
+    height: 220px;
+}    
+
+#assiglist, li {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+#assigportal {
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+    color: #6F9B68;
+}
+
+hr {
+    border-style: none;
+    width: 50%;
+    height: 1px;
+    background-color: #D86C87;
+}
+
+.week {
+    color: #6F9B68;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.7rem;
+    margin: 0px 100px 0px 200px;
+
+}
+
+.assig {
+    color: #AA2244;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    padding: 0.7rem;
+    margin: 0px 100px 0px 100px;
+    
+}
+
+a:hover {
+    color: #D86C87;
+}
+
+footer {
+    height: 50px;
+    background-color: #AA2244;
+    color: #ffffff;
+    text-align: center;
+    margin:  auto;
+    max-width: 800px;
+    padding-top: 1em;
+}
+
+.byuilink {
+    color: #ffffff;
+}
+            
