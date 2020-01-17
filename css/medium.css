@@ -1,6 +1,6 @@
 @media only screen and (min-width: 32.5em) {
     header {
-        font-size: 50px;
+        font-size: 60px;
         margin: 0rem auto 0.5rem auto;
         
     }
@@ -18,7 +18,7 @@
     }
 
     #assigportal {
-        font-size: 35px;
+        font-size: 30px;
         font-family: 'Roboto', sans-serif;
         color: #6F9B68;
     }
