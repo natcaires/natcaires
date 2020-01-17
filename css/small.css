@@ -1,7 +1,5 @@
 header, main {
-    margin: 0rem auto auto auto;
-    max-width: 800px;
-    
+    margin: 0rem auto auto auto; 
 }
 
 header {
@@ -11,13 +9,13 @@ header {
     background-color: #AA2244;
     text-align: center;
     margin: 0rem auto 0.5rem auto;
-    padding: 0.2em;
+    padding: 0.1em;
     
 }
 
 #selfportrait {
-    width: 800px;
-    height: 220px;
+    width: 32.5em;
+    height: 11.5em;
 }    
 
 #assiglist, li {

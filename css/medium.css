@@ -5,6 +5,11 @@
         
     }
 
+    #selfportrait {
+        width: 400px;
+        height: 110px;
+    }  
+
     .week {
         font-size: 20px;
         padding: 0.5rem;
