@@ -1,0 +1,20 @@
+@media only screen and (min-width: 800px) {
+
+    header {
+        width: 100%;
+    }
+
+    #container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0 8em;
+    
+    }
+
+    #desigPrinc {
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    
+}
