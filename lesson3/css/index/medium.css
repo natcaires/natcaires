@@ -1,0 +1,50 @@
+@media only screen and (min-width: 670px) {
+
+    body {
+        width: 100%;
+    }
+
+    #websitePlan {
+        font-size: 40px;
+        padding: 0.5em;
+
+    }
+
+    #myName {
+        font-size: 35px;
+        padding: 0.5em;
+    }
+
+    nav {
+        height: 80px;   
+    }
+
+    ul {
+        display: flex;
+    }
+
+    li a {
+        font-size: 27px;
+        padding: 0.5em;
+    }
+
+    nav li {
+        
+        padding-left: 50px;
+        padding-top: 1.5em;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 27px;
+    }
+
+    img {
+        width: 25%;
+        height: 25%;
+    }
+
+}
