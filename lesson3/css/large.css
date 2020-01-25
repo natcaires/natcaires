@@ -15,4 +15,14 @@ nav .targetNav {
     padding-top: 1.5em;
 }
 
+nav .colorNav {
+        
+    padding-left: 95px;
+    padding-top: 1.5em;
+}
+
+#colorpalette {
+    margin: 1.5em;
+}
+
 }

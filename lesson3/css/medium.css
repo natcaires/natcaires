@@ -59,13 +59,13 @@
         font-size: 27px;
     }
 
-    img {
+    #siteLogo {
         width: 25%;
         height: 25%;
     }
 
     nav a:hover {
-        background-color: #BFDBF7;
+        background-color: #77B3D4;
     }
 
 }

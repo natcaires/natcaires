@@ -8,21 +8,22 @@
         font-family: 'Fjalla One', sans-serif;
         color: #ffffff;
         background-color: #04195E;
-        text-align: start;
-        padding: 0.5em;
+        text-align: center;
+        padding: 1em;
         
         
     }
 
     .pageTitle {
         font-size: 25px;
-        padding: 0.1em;
+        padding: 1em;
 
     }
 
     .myName {
         font-size: 20px;
-        padding: 0.1em;
+        padding-top: 5em;
+        
     }
 
     nav {
@@ -50,11 +51,11 @@
     }
 
     nav a:hover {
-        background-color: #EA4871;
+        background-color: #77B3D4;
     }
 
     section {
-        padding: 0.7em;
+        padding: 5em;
     }
 
     h1 {
@@ -80,6 +81,41 @@
     #siteLogo {
         width: 20%;
         height: 20%;
+    }
+
+    #colorpalette {
+        text-align: center;
+        margin: 0.5em;
+    }
+
+    #colorpaletteimg {
+        width: 70%;
+        height: 70%;
+    }
+
+    #grainyellow {
+        color: #F7D660;
+        background-color: #04195E;
+    
+    }
+
+    #iceberg {
+        color: #77B3D4;
+        background-color: #04195E;
+    }
+
+    #royalblue {
+        background-color: #77B3D4;
+    }
+
+    #spanishgray {
+        color: #969696;
+        background-color: #04195E;
+    }
+
+    #colorblack {
+        color: #000000;
+        background-color: #77B3D4;
     }
 
 
