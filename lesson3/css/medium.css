@@ -51,6 +51,10 @@
         padding-top: 1.5em;;
     }
 
+    #colorpalette {
+        margin: 1em;
+    }
+
     h1 {
         font-size: 32px;
     }
