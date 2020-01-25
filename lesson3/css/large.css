@@ -11,13 +11,18 @@ nav .homeNav {
 
 nav .targetNav {
         
-    padding-left: 90px;
+    padding-left: 110px;
     padding-top: 1.5em;
 }
 
 nav .colorNav {
-        
-    padding-left: 95px;
+
+    padding-left: 100px;
+    padding-top: 1.5em;
+}
+
+nav .typoNav {
+    padding-left: 100px;
     padding-top: 1.5em;
 }
 

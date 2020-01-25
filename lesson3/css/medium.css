@@ -19,11 +19,11 @@
         height: 80px;   
     }
 
-    ul {
+    nav ul {
         display: flex;
     }
 
-    li a {
+    nav ul li a {
         font-size: 27px;
         padding: 0.5em;
     }
@@ -56,11 +56,18 @@
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 35px;
+        padding: 0.7em;
+    }
+
+    h2 {
+        font-size: 30px;
+        padding-left: 0.7em;
     }
 
     p {
-        font-size: 27px;
+        font-size: 20px;
+        padding: 0.7em;
     }
 
     #siteLogo {
@@ -70,6 +77,18 @@
 
     nav a:hover {
         background-color: #77B3D4;
+    }
+
+    ol {
+        padding: 2em;
+    }
+
+    ol li {
+        font-size: 18px;
+    }
+
+    main ul li {
+        font-size: 23px;
     }
 
 }

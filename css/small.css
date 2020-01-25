@@ -1,5 +1,3 @@
-@media only screen and (min-width: 300px) {
-
 header, main {
     margin: 0rem auto auto auto; 
     max-width: 800px;
@@ -77,6 +75,4 @@ footer {
 
 .byuilink {
     color: #ffffff;
-}
-            
 }

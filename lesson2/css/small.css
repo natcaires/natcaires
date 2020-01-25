@@ -1,5 +1,3 @@
-@media only screen and (min-width: 200px) { 
-
 header {
     font-family: 'Fjalla One', sans-serif;
     color: #ffffff;
@@ -91,6 +89,4 @@ a:hover {
 
 .byuilink {
     color: #ffffff;
-}
-
 }
