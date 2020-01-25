@@ -7,22 +7,27 @@
     header {
         font-family: 'Fjalla One', sans-serif;
         color: #ffffff;
-        background-color: #AA2244;
+        background-color: #04195E;
         text-align: start;
         padding: 0.5em;
         
         
     }
 
-    #targetAudience {
+    .pageTitle {
         font-size: 25px;
         padding: 0.1em;
 
     }
 
+    .myName {
+        font-size: 20px;
+        padding: 0.1em;
+    }
+
     nav {
         display: block;
-        background-color:#D86C87;
+        background-color:#F7D660;
         
     }
 
@@ -35,7 +40,7 @@
     li a {
         text-decoration: none;
         font-family: 'Fjalla One', sans-serif;
-        color: #ffffff;
+        color: #04195E;
         font-size: 17px;
     }
 
@@ -44,15 +49,43 @@
         padding: 0.7em;
     }
 
-    li:hover {
+    nav a:hover {
         background-color: #EA4871;
     }
 
+    section {
+        padding: 0.7em;
+    }
+
+    h1 {
+        color: #04195E;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 22px;
+    }
+
+    hr {
+        border-style: none;
+        width: 60%;
+        height: 1px;
+        background-color: #F7D660;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+    }
+
+    #siteLogo {
+        width: 20%;
+        height: 20%;
+    }
 
 
     footer {
         height: 50px;
-        background-color: #AA2244;
+        background-color: #04195E;
         color: #ffffff;
         text-align: center;
         margin-top: 2em;
@@ -65,7 +98,6 @@
     }
 
     .byuilink:hover {
-        color: #EA4871
+        color: #F7D660
     }
-
 }

@@ -1,16 +1,16 @@
-@media only screen and (min-width: 670px) {
+@media only screen and (min-width: 730px) {
 
     body {
         width: 100%;
     }
 
-    #websitePlan {
+    .pageTitle {
         font-size: 40px;
         padding: 0.5em;
 
     }
 
-    #myName {
+    .myName {
         font-size: 35px;
         padding: 0.5em;
     }
@@ -28,10 +28,27 @@
         padding: 0.5em;
     }
 
-    nav li {
+    nav .homeNav {
         
         padding-left: 50px;
         padding-top: 1.5em;
+    }
+
+    nav .targetNav {
+        
+        padding-left: 95px;
+        padding-top: 1.5em;
+    }
+
+    nav .colorNav {
+        
+        padding-left: 85px;
+        padding-top: 1.5em;
+    }
+
+    nav .typoNav {
+        padding-left: 80px;
+        padding-top: 1.5em;;
     }
 
     h1 {
@@ -45,6 +62,10 @@
     img {
         width: 25%;
         height: 25%;
+    }
+
+    nav a:hover {
+        background-color: #BFDBF7;
     }
 
 }

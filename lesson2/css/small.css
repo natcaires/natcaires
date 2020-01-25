@@ -19,13 +19,7 @@ header {
 #myName {
     font-size: 25px;
     padding-right: 5em;
-    text-align: start;
-}
-
-#linkHome {
-    font-size: 25px;
-    padding: 0.1em;
-    color: #fff;
+    text-align: center;
 }
 
 section {
@@ -66,7 +60,7 @@ h2 {
 }
 
 .websiteUrl {
-    color: #6F9B68;
+    color: #53754E;
     font-size: 15px;
     padding-left: 0.5em;
 }
