@@ -7,22 +7,21 @@
         color: #ffffff;
         background-color: #04195E;
         padding: 1em;
+        text-align: center;
 
         
         
     }
 
     .pageTitle {
-        font-size: 27px;
+        font-size: 25px;
         padding: 1em;
-        text-align: center;
 
     }
 
     .myName {
         font-size: 20px;
         padding-top: 1em;
-        text-align: start;
         
     }
 
@@ -72,6 +71,20 @@
         font-family: 'Fjalla One', sans-serif;
         color: #77B3D4;
         padding: 0.5em;
+    }
+
+    .antonFont {
+        font-size: 30px;
+        font-family: 'Anton', sans-serif;
+        padding: 0.5em;
+        color: #04195E;
+
+    }
+
+    .robotoFont {
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        padding: 0.5em
     }
 
     hr {
