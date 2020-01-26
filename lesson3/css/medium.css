@@ -5,14 +5,15 @@
     }
 
     .pageTitle {
-        font-size: 40px;
+        font-size: 43px;
         padding: 0.5em;
 
     }
 
     .myName {
         font-size: 35px;
-        padding: 0.5em;
+        padding: 2.5em;
+        
     }
 
     nav {

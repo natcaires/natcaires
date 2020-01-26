@@ -6,21 +6,23 @@
         font-family: 'Fjalla One', sans-serif;
         color: #ffffff;
         background-color: #04195E;
-        text-align: center;
         padding: 1em;
+
         
         
     }
 
     .pageTitle {
-        font-size: 25px;
+        font-size: 27px;
         padding: 1em;
+        text-align: center;
 
     }
 
     .myName {
         font-size: 20px;
-        padding-top: 5em;
+        padding-top: 1em;
+        text-align: start;
         
     }
 
