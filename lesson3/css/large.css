@@ -1,7 +1,7 @@
 @media only screen and (min-width: 800px) {
 
-    body {
-    max-width: 850px;
+body {
+    width: 850px;
     margin: 0rem auto 0.5rem auto;
 }
 

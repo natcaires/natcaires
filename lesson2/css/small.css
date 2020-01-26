@@ -5,19 +5,18 @@ header {
     text-align: center;
     margin-bottom: 2em;
     width: 100%;
-    justify-content: center;
+    text-align: center;
 }
 
 #desigPrinc {
     font-size: 40px;
     padding: 0em;
-    text-align: center;
+
 }
 
 #myName {
     font-size: 25px;
-    padding-right: 5em;
-    text-align: center;
+    padding-right: 5em;  
 }
 
 section {
