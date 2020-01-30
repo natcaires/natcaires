@@ -78,8 +78,9 @@ footer {
     background-color: #AA2244;
     color: #ffffff;
     text-align: center;
-    padding-top: 1em;
-    justify-content: center;
+    margin-top: 1.7em;
+    padding: 1em;
+    
 }
 
 a:hover {
