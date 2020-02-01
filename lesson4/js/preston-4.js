@@ -1,3 +1,14 @@
+function toggleMenu() {
+    document.getElementById("primaryNav").classList.toggle("hide");
+}
+
+
+
+
+
+
+
+
 let year = new Date().getFullYear();
 document.getElementById('year').innerHTML = year;
 

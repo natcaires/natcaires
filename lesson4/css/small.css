@@ -3,6 +3,7 @@ header {
     background-color: #04195E;
     height: 110px;
     justify-content: center;
+    text-align: center;
     
 }
 
@@ -24,15 +25,20 @@ h2 {
 #catchphrase {
     color: #F7D660;
     font-family: 'Roboto', 'sans-serif';
-    font-size: 15px;
+    font-size: 12px;
     margin: 0;
-    padding: 0em 1em 1em 3em;
 }
 
 #websiteLogo {
     width: 80px;
     height: 80px;
     padding: 1em 0em 1em 2em;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.6em;
 }
 
 nav {
@@ -45,16 +51,24 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
-    text-align: center;
-    padding: 0.5em;
-}
-
-nav li a {
+nav ul li a {
+    display: block;
+    padding: 0.8em 2%;
     text-decoration: none;
+    border-top: 1px solid rgba(0,0,0,0.1);
     font-family: 'Roboto', sans-serif;
+    font-size: 18px;
     color: #000000;
    
+}
+
+nav a:hover {
+    color: #F7D660;
+    background-color: #04195E;
+}
+
+nav ul.hide {
+    display:none;
 }
 
 section {
