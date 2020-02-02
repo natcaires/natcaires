@@ -22,6 +22,15 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: 400;
+    color: #fff;
+}
+
 #catchphrase {
     color: #F7D660;
     font-family: 'Roboto', 'sans-serif';
@@ -43,6 +52,7 @@ nav button {
 
 nav {
     background-color: #F7D660;
+    
 }
 
 nav ul {
@@ -75,6 +85,7 @@ section {
     margin: 1em;
     height: 40px;
     background-color: #969696;
+    justify-content: center;
 }
 
 p {
