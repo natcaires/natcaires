@@ -44,10 +44,17 @@ h3 {
     padding: 1em 0em 1em 2em;
 }
 
+#menu {
+    font-size: 0.9em;
+}
+
 nav button {
     background-color: transparent;
     border: none;
-    font-size: 1.6em;
+    font-size: 1.5em;
+    margin: auto 40%;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav {
@@ -69,6 +76,7 @@ nav ul li a {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #000000;
+    text-align: center;
    
 }
 
