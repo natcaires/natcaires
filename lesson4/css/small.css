@@ -28,7 +28,7 @@ h3 {
     text-align: center;
     padding: 0.5em;
     font-weight: 400;
-    color: #fff;
+    color: #000;
 }
 
 #catchphrase {
@@ -84,7 +84,7 @@ nav ul.hide {
 section {
     margin: 1em;
     height: 40px;
-    background-color: #969696;
+    background-color: #77B3D4;
     justify-content: center;
 }
 
