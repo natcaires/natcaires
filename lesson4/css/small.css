@@ -31,7 +31,7 @@ h3 {
     color: #000;
 }
 
-#catchphrase {
+.catchphrase {
     color: #F7D660;
     font-family: 'Roboto', 'sans-serif';
     font-size: 12px;
