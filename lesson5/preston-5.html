@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Trusty Weather</title>
+            <meta name="description" content="Trusty Weather Home Page">
+            <link href="https://fonts.googleapis.com/css?family=Fjalla+One%7cRoboto&display=swap" rel="stylesheet">
+            <link rel="shortcut icon" href="./images/favicon.ico">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/medium.css">
+            <link rel="stylesheet" href="css/large.css">
+        </head>
+
+        <body>
+            <header>
+                <img src="images/websitelogo.png" alt="website logo" id="websiteLogo">
+                <div class="websiteTitle">             
+                <h1>Trusty Weather</h1>
+                <span class="catchphrase">You can trust on us!</span>
+                </div>
+            </header>
+
+            <nav>
+                <button onclick="toggleMenu()">&#9776; <span id="menu">Menu</span></button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="#">Storm Center</a></li>
+                    <li><a href="#">Gallery</a></li>
+                 </ul>
+            </nav>
+
+            <main>
+                <h2>Preston Idaho</h2>
+
+            <div class="boxes">
+                <section>
+                    <div class="weatherSummary">
+                        <h3 class="whiteH3">Weather Summary</h3>
+                        <p class="summaryP">Currently: <span class="summarySpan">Cloudy</span><br/>
+                                            High: <span class="summarySpan">70°F</span><br/>
+                                            Wind Chill: <span class="summarySpan">60°F</span><br/>
+                                            Humidity:   <span class="summarySpan">30%</span><br/>
+                                            Wind speed: <span class="summarySpan">10mph</span>
+                        </p>
+                    </div>
+                    <img class="prestonImg1" src="images/lake.jpg" alt="landscape img">
+                </section>
+
+                <section class="fiveDayForecast">
+                    <div class="fiveDay">
+                        <h3 class="forecastH3">Mon</h3>
+                        <img src="images/sunny.png" alt="sunny icon" class="forecastImg">
+                        <p class="forecastP">65°F</p>
+                    </div>
+
+                    <div class="fiveDay">
+                        <h3 class="forecastH3">Tue</h3>
+                        <img src="images/sunny.png" alt="sunny icon" class="forecastImg">
+                        <p class="forecastP">75°F</p>
+                    </div>
+
+                    <div class="fiveDay">
+                        <h3 class="forecastH3">Wed</h3>
+                        <img src="images/rainy.png" alt="rainy icon" class="forecastImg">
+                        <p class="forecastP">50°F</p>
+                    </div>
+
+                    <div class="fiveDay">
+                        <h3 class="forecastH3">Thu</h3>
+                        <img src="images/sunny.png" alt="sunny icon" class="forecastImg">
+                        <p class="forecastP">60°F</p>
+                    </div>
+
+                    <div class="fiveDay">
+                        <h3 class="forecastH3">Fri</h3>
+                        <img src="images/rainy.png" alt="rainy icon" class="forecastImg">
+                        <p class="forecastP">52°F</p>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Article</h3>
+                </section>
+
+                <section> 
+                    <h3>Hero w/ weather summary</h3>
+                </section>
+
+                <section>
+                    <h3>Contact Information</h3>
+                </section>
+            </div>
+
+            </main>
+
+            <footer>
+                &copy; <span id="year"></span>Trusty Weather | Nataly Caires | Idaho
+                <div id="todaysDate"></div>
+            </footer>
+
+            <script src="js/preston-5.js"></script>
+
+        </body>
+    </html>
