@@ -21,12 +21,17 @@ main {
 .prestonImg1 {
     width: 960px;
     height: 400px;
+    margin-bottom: 2em;
 }
 
 .summaryAndPic {
     margin: 10px auto;
     width: 960px;
     height: 300px;
+}
+
+.fiveDayForecast {
+    margin-top: 8em;
 }
 
 .article {
