@@ -62,7 +62,7 @@ h5 {
 }
 
 #menu {
-    font-size: 0.7em;
+    font-size: 0.6em;
 }
 
 nav button {
@@ -215,6 +215,7 @@ p {
     color: #ffffff;
     text-align: center;
     margin-top: 0;
+    font-size: 12px;
 }
 
 .socialMedia {
