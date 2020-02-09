@@ -1,21 +1,46 @@
 @media only screen and (min-width:900px){
 
+header {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+}
+
 nav ul li {
     font-size: 17px;
     padding-left: 0.9em;
 }
 
-section {
-    width: 50%;
+main {
     text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 0 auto;
+}
+
+.prestonImg1 {
+    width: 960px;
+    height: 300px;
+}
+
+.summaryAndPic {
+    margin: 10px auto;
+    width: 960px;
+    height: 300px;
+}
+
+.article {
+    width: 890px;
+    margin: 0.5em auto;
+}
+
+.articleText {
+    padding: 1em;
 }
 
 footer {
-    height: 40px;
-    width: 900px;
-    margin: 5em auto 0em auto;
+    width: 960px;
+    margin: 3em auto 0em auto;
 }
 
 

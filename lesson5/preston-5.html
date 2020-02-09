@@ -6,6 +6,7 @@
             <title>Trusty Weather</title>
             <meta name="description" content="Trusty Weather Home Page">
             <link href="https://fonts.googleapis.com/css?family=Fjalla+One%7cRoboto&display=swap" rel="stylesheet">
+            
             <link rel="shortcut icon" href="./images/favicon.ico">
             <link rel="stylesheet" href="css/normalize.css">
             <link rel="stylesheet" href="css/small.css">
@@ -14,6 +15,9 @@
         </head>
 
         <body>
+
+            <div id="hiddenMessage"></div>
+
             <header>
                 <img src="images/websitelogo.png" alt="website logo" id="websiteLogo">
                 <div class="websiteTitle">             
@@ -26,7 +30,7 @@
                 <button onclick="toggleMenu()">&#9776; <span id="menu">Menu</span></button>
                 <ul id="primaryNav" class="hide">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Preston</a></li>
+                    <li><a class="active" href="#">Preston</a></li>
                     <li><a href="#">Soda Springs</a></li>
                     <li><a href="#">Fish Haven</a></li>
                     <li><a href="#">Storm Center</a></li>
@@ -37,8 +41,7 @@
             <main>
                 <h2>Preston Idaho</h2>
 
-            <div class="boxes">
-                <section>
+                <section class="summaryAndPic">
                     <div class="weatherSummary">
                         <h3 class="whiteH3">Weather Summary</h3>
                         <p class="summaryP">Currently: <span class="summarySpan">Cloudy</span><br/>
@@ -48,7 +51,7 @@
                                             Wind speed: <span class="summarySpan">10mph</span>
                         </p>
                     </div>
-                    <img class="prestonImg1" src="images/lake.jpg" alt="landscape img">
+                    <img class="prestonImg1" src="images/neighborhood.jpeg" alt="landscape img">
                 </section>
 
                 <section class="fiveDayForecast">
@@ -83,24 +86,55 @@
                     </div>
                 </section>
 
-                <section>
-                    <h3>Article</h3>
+                <section class="article">
+                 <img src="images/article photo.jpeg" alt="photo of two women" class="articlePhoto">
+
+                 <div class="articleText">
+                    <h4>Founders Day Fresco</h4>
+                    <h5>by Janica Juarez</h5>
+                    <p class="articleP">I was recently reflecting upon the founders day event
+                        held at Foundation Park each year. I have been taking
+                        the festival for granted and have not been properly 
+                        engaging in perhaps the most popular community even
+                        of the year. In response, I contacted Ms. Sharon via 
+                        email and expressed my desire to serve on the event 
+                        committee. Well, you guessed it, the phone rings almost
+                        immediately and she promptly asks me to be the event 
+                        committee chair. Literally, good grief! My appreciation
+                        for the years of dedicated, generous service of volunteers
+                        and sponsors has escalated beyond what I thought I could 
+                        feel for such a thing and... <span class="fakelink">continue to full article</span>
+                    </p>
+                 </div>
                 </section>
 
-                <section> 
-                    <h3>Hero w/ weather summary</h3>
-                </section>
-
-                <section>
-                    <h3>Contact Information</h3>
-                </section>
-            </div>
+                
 
             </main>
 
             <footer>
-                &copy; <span id="year"></span>Trusty Weather | Nataly Caires | Idaho
+                <section class="contactInfo">
+                    <img src="images/map.jpeg" alt="Idaho map" class="map">
+                    <div class="contactText">
+                        <p class="contactI"><span class="trustyW">Trusty Weather</span><br/>
+                        <span><img class="locationIcon" src="images/location icon.png"></span>30 N 1st E<br/>
+                                                                                            Preston, ID 83263
+                         </p>
+
+                        <p>&#9742; 999-999-9999<br/>
+                            &#9993; contact@trustyweather.com</p>
+
+                        <span class="socialMediaIcons">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook icon.png" alt="Facebook" class="socialMedia"></a>
+                        <a href="twitter.com" target="_blank"><img src="images/twitter icon.png" alt="Twitter" class="socialMedia"></a>
+                        <a href="pinterest.com" target="_blank"><img src="images/pinterest icon.png" alt="Pinterest" class="socialMedia"></a>
+                        </span>
+                    </div>
+
+                </section>
+                <section class="copyright">&copy; <span id="year"></span>Trusty Weather | Attributions | Nataly Caires
                 <div id="todaysDate"></div>
+                </section>
             </footer>
 
             <script src="js/preston-5.js"></script>
