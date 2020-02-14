@@ -1,0 +1,149 @@
+@media only screen and (min-width:700px){
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+
+    .hiddenMessage {
+        font-size: 25px;
+    }
+    
+    h1 {
+        font-size: 55px;
+        margin-top: 0.7em;
+        margin-bottom: 0.1em;
+    }
+    
+    #websiteLogo {
+        width: 120px;
+        height: 120px;
+    }
+    
+    #catchphrase {
+        font-size: 15px;
+    }
+
+    nav {
+        height: 50px;
+        width: 100%;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav ul li {
+        font-size: 15px;
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+    }
+
+    nav li a:active {
+        color: #F7D660;
+        background-color: #04195E;
+    }
+    
+    nav button {
+        display: none;
+    }
+    
+    nav ul.hide {
+        display: flex;
+    }
+    
+
+    .summaryAndPic {
+        text-align: center;
+    }
+
+    .weatherSummary {
+        width: 250px;
+        height: 240px;  
+        margin: 1.5em;  
+        text-align: center; 
+    }
+
+    .summaryP {
+        font-size: 20px;
+    }
+
+    .whiteH3 {
+        font-size: 26px;
+        margin-bottom: 0;
+        font-weight: bold;
+        text-align: center;
+    
+    }
+
+    .fiveDayForecast {
+        display: flex;
+        justify-content: center;
+        margin: 3em;
+    }
+
+    .fiveDay {
+        width: 100px;
+        text-align: center;
+        margin: 3px;
+    }
+
+    .forecastH3 {
+        font-size: 15px;
+        background-color: #04195E;
+        color: #ffffff;
+        width: 80px;
+    }
+
+    .forecastImg {
+        width: 65px;
+        height: 65px;
+    }
+
+    .forecastP {
+        font-size: 15px;
+    }
+
+    .article {
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        padding: 1em;
+    }
+    .articlePhoto {
+        width: 45%;
+        margin: 0;
+        padding: 0;
+        align-self: center;
+    }
+
+    .articleText {
+        margin: 0;
+        padding: 2em 0em 2em 2em;
+    }
+
+    .contactInfo {
+        display: flex;
+    }
+
+    footer {
+        margin-top: 2em;
+    }
+
+    .map {
+        display: block;
+    }
+
+    .contactText {
+        margin: 3em 3em 2em 8em;
+    }
+
+    .copyright {
+        font-size: 15px;
+    }
+
+}

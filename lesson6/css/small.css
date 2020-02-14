@@ -1,0 +1,232 @@
+header {
+    display: flex;
+    background-color: #04195E;
+    height: 110px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Fjalla One', 'sans-serif';
+    padding: 0em 0.5em 0em 0.5em;
+    margin-bottom: 0;
+    margin-top: 1em;;
+
+}
+
+h2 {
+    font-family: 'Fjalla One', 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: 400;
+    color: #000;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    padding-left: 1em;
+    margin: 0;
+
+}
+
+h5 {
+    color: #04195E;
+    padding-left: 1.5em;
+    margin: 0.5em;
+}
+
+.catchphrase {
+    color: #F7D660;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 12px;
+    margin: 0;
+}
+
+#websiteLogo {
+    width: 80px;
+    height: 80px;
+    padding: 1em 0em 1em 2em;
+}
+
+#menu {
+    font-size: 0.6em;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    margin: auto 38%;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #F7D660;
+    width: 100%;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.8em 2%;
+    text-decoration: none;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+   
+}
+
+nav a:hover {
+    color: #F7D660;
+    background-color: #04195E;
+}
+
+.active {
+    color: #F7D660;
+    background-color: #04195E;
+}
+
+nav ul.hide {
+    display:none;
+}
+
+.heroImage {
+    width: 100%;
+    height: auto;
+}
+
+.summaryAndPic {
+    position: relative;
+}
+
+.weatherSummary {
+    background-color: rgba(40, 120, 163, 0.5);
+    width: 170px;
+    height: 166px;
+    margin: 0.7em;
+    position: absolute;
+    text-align: center;
+
+}
+
+.whiteH3 {
+    font-size: 17px;
+    margin-bottom: 0;
+    text-align: start;
+    color: #ffffff;
+    padding: 0.5em;
+}
+
+.summaryP {
+    margin-top: 0;
+    color: #ffffff;
+}
+
+.summarySpan {
+    color: #F7D660;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.fiveDayForecast {
+    display: none;
+}
+
+.article {
+    background-color: #99D6F7;
+    margin: 0.7em;
+}
+
+.articlePhoto {
+    width: 90%;
+    height: auto;
+    padding: 1em;
+    
+}
+
+.articleText {
+    text-align: start;
+}
+
+.articleP {
+    font-size: 15px;
+    padding: 0.7em;
+    margin-top: 0.2em;
+}
+
+.fakelink {
+    font-size: 12px;
+    color: purple;
+    text-decoration: underline;
+}
+
+.map {
+    display: none;
+}
+
+.contactInfo {
+    margin-top: 0;
+    margin-bottom: -1em;
+    padding: 2em;
+    background-color: #BFBFBF;
+}
+
+.contactI {
+    margin: 0;
+}
+
+.trustyW {
+    font-weight: bold;
+}
+
+.locationIcon {
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+}
+
+.copyright {
+    height: 50px;
+    padding-top: 1em;
+    background-color: #04195E;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.socialMedia {
+    width: 30px;
+}
+
+.byuilink {
+    color: #ffffff;
+}
+
+.byuilink:hover {
+    color: #F7D660
+}
