@@ -5,7 +5,6 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Trusty Weather</title>
             <meta name="description" content="Trusty Weather Home Page">
-            <link href="https://fonts.googleapis.com/css?family=Fjalla+One%7cRoboto&display=swap" rel="stylesheet">
             
             <link rel="shortcut icon" href="./images/favicon.ico">
             <link rel="stylesheet" href="css/normalize.css">
@@ -45,10 +44,10 @@
                     <div class="weatherSummary">
                         <h3 class="whiteH3">Weather Summary</h3>
                         <p class="summaryP">Currently: <span class="summarySpan">Cloudy</span><br/>
-                                            High: <span class="summarySpan">70°F</span><br/>
-                                            Wind Chill: <span class="summarySpan">60°F</span><br/>
+                                            High: <span class="summarySpan"><span id="highF">38</span>°F</span><br/>
+                                            Wind Chill: <span class="summarySpan"><span id="windChill"></span>°F</span><br/>
                                             Humidity:   <span class="summarySpan">30%</span><br/>
-                                            Wind speed: <span class="summarySpan">10mph</span>
+                                            Wind speed: <span class="summarySpan"><span id="windSpeed">10</span>mph</span>
                         </p>
                     </div>
                     <picture>
@@ -142,6 +141,9 @@
             </footer>
 
             <script src="js/preston-6.js"></script>
+            <script src="js/windchill.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Fjalla One', 'Roboto']}});</script>
 
         </body>
     </html>
