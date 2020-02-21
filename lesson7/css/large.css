@@ -1,0 +1,15 @@
+@media only screen and (min-width:900px){
+
+nav ul li {
+    font-size: 17px;
+    padding-left: 0.9em;
+}
+
+footer {
+    height: 40px;
+    width: 900px;
+    margin: 5em auto 0em auto;
+}
+
+
+}
