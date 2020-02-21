@@ -5,6 +5,10 @@ nav ul li {
     padding-left: 0.9em;
 }
 
+.catchphrase {
+    font-size: 17px;
+}
+
 footer {
     height: 40px;
     width: 900px;

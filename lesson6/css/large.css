@@ -13,6 +13,10 @@ nav ul li {
     padding-left: 0.9em;
 }
 
+.catchphrase {
+    font-size: 17px;
+}
+
 main {
     text-align: center;
     margin: 0 auto;
