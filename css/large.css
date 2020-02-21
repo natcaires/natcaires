@@ -1,0 +1,26 @@
+@media only screen and (min-width: 900px) {
+
+body {
+    width: 800px;
+    margin: auto;
+}
+
+header {
+    margin: 0em auto 0.2em auto;
+}
+
+main, footer {
+    margin: 0em auto;
+    text-align: center;
+}
+
+#selfportrait {
+    width: 100%;
+    margin: 0em auto 0em 1em;
+}
+
+footer {
+    font-size: 15px;
+}
+
+}

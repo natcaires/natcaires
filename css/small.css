@@ -1,23 +1,21 @@
 header, main {
-    margin: 0rem auto auto auto; 
-    max-width: 800px;
+    width: 100%;
 }
 
 header {
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Fjalla One', sans-serif;
     color: #ffffff;
     background-color: #AA2244;
     text-align: center;
-    margin: 0rem auto 0.5rem auto;
     padding: 0.3em;
+    margin-bottom: 0.2em;
     
 }
 
 #selfportrait {
     width: 100%;
     height: auto;
-    max-width: 800px;
 }    
 
 #assiglist, li {
@@ -45,8 +43,8 @@ hr {
     color: #6F9B68;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
-    padding: 0.3rem;
-    margin:  1em 10% 1em auto;;
+    padding: 0.5rem;
+    margin:  1em auto;
 
 }
 
@@ -54,8 +52,8 @@ hr {
     color: #AA2244;
     font-size: 15px;
     font-family: 'Roboto', sans-serif;
-    padding: 0.2rem;
-    margin: 1em auto 1em 10%;
+    padding: 0.5rem;
+    margin: 1em auto;
     
 }
 
@@ -64,13 +62,14 @@ a:hover {
 }
 
 footer {
-    height: 42px;
+    height: 45px;
     background-color: #AA2244;
     color: #ffffff;
+    font-size: 13px;
     text-align: center;
     margin-top: 1.7em;
-    padding: 1em;
-    width: 800px;
+    padding-top: 0.7em;
+    width: 100%;
     
 }
 

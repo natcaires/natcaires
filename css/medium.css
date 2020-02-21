@@ -1,4 +1,4 @@
-@media only screen and (min-width: 530px) {
+@media only screen and (min-width: 700px) {
     header {
         font-size: 55px;
         margin: 0rem auto 0.5rem auto;
@@ -12,14 +12,12 @@
 
     .week {
         font-size: 17px;
-        padding: 0.5rem;
-        margin: 1em 10% 1em auto;
+        padding: 0.7rem;
     }
 
     .assig {
         font-size: 17px;
-        padding: 0.5rem;
-        margin: 1em auto 1em 10%;
+        padding: 0.7rem;
     }
 
     #assigportal {
@@ -30,6 +28,6 @@
 
     footer {
         padding-top: 1em;
-        margin: 3rem auto 0rem auto;
+        margin-top: 3rem;
     }
 }
