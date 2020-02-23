@@ -10,6 +10,10 @@
         margin-top: 0.7em;
         margin-bottom: 0.1em;
     }
+
+    h2 {
+        font-size: 40px;
+    }
     
     #websiteLogo {
         width: 120px;
@@ -45,6 +49,28 @@
     
     nav ul.hide {
         display: flex;
+    }
+
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        text-align: center;
+        margin: 1em;
+    }
+
+    .imageBlock {
+        width: 360px;
+        height: 280px;
+        margin: 0.5em auto;
+    }
+
+    figcaption {
+        font-size: 15px;
+    }
+
+    footer {
+        margin-top: 2em;
     }
 
 }
