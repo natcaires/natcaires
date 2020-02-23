@@ -31,15 +31,15 @@
     
     nav ul {
         display: flex;
-        justify-content: center;
+        flex-direction: row;
     }
     
     nav ul li {
         font-size: 15px;
+        flex: 1 1 100%;
     }
 
     nav ul li a {
-        padding: 15.5px;
         border: none;
     }
     
