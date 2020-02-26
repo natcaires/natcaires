@@ -1,0 +1,32 @@
+@media only screen and (min-width:900px){
+
+nav ul li {
+    font-size: 17px;
+    padding-left: 0.9em;
+}
+
+.catchphrase {
+    font-size: 17px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1.5em;
+}
+
+.imageBlock {
+    width: 540px;
+    height: 400px;
+}
+
+footer {
+    height: 40px;
+}
+
+.imageBlock:hover {
+    box-shadow: 0 0 30px #000;
+}
+
+
+}
