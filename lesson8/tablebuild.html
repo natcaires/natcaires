@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Table Build</title>
+            <meta name="description" content="Table building practice">
+            <link rel="stylesheet" href="css/tablebuild.css">
+        </head>
+
+        <body>
+
+            <table>
+
+                <caption><strong>ACME Wildwest</strong></caption>
+
+                <thead>
+                    <tr>
+                        <td class="period">Period</td>
+                        <td class="sales">Sales</td>
+                        <td class="goal">Sales Goal</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="gray">
+                        <td class="period">August</td>
+                        <td class="sales">$3,590</td>
+                        <td class="goal">$4,000</td>
+                    </tr>
+
+                    <tr class="green">
+                        <td class="period">September</td>
+                        <td class="sales">$4,420</td>
+                        <td class="goal">$5,000</td>
+                    </tr>
+
+                    <tr class="gray">
+                        <td class="period">October</td>
+                        <td class="sales">$4,870</td>
+                        <td class="goal">$5,000</td>
+                    </tr>
+
+                    <tr class="green">
+                        <td class="period">November</td>
+                        <td class="sales">$8,610</td>
+                        <td class="goal november">$7,500</td>
+                    </tr>
+
+                    <tr class="gray">
+                        <td class="period"><em>Black Friday</em></td>
+                        <td colspan="2" class="blackFriday">$3,200</td>
+                    </tr>
+
+                    <tr class="green">
+                        <td class="period">December</td>
+                        <td class="sales">$6,820</td>
+                        <td class="goal">$7,500</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <td colspan="3">Compiled 12.20.2020 by bRauls</td>
+                </tfoot>
+
+            </table>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Ubuntu']}});</script>
+
+        </body>
+    </html>

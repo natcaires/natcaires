@@ -1,0 +1,71 @@
+table {
+    -moz-box-shadow:    0px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 0px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+caption{
+    margin: 5em auto 0em auto;
+    width: 380px;
+    height: 50px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #7fb9c2;
+    padding: 0.3em 0.5em;
+    border-bottom: 0em;
+}
+
+table, td {
+    margin: 0em auto;
+    text-align: center;
+    height: 40px;
+    width: 380px;
+    
+}
+
+td {
+    padding: 0.25em 0.35em;
+}
+
+table, caption, td {
+    border: 2px solid #cbd5ce;
+    border-collapse: collapse;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+thead {
+    font-weight: bold;
+    font-size: 22px;
+    color: #ffffff;
+    background-color: #628ca6;
+}
+
+tbody {
+    font-size: 19px;
+}
+
+.period {
+    width: 36%;
+}
+
+.sales {
+    width: 24%;
+}
+
+.gray {
+    background-color: #e7f0ed;
+}
+
+.green {
+    background-color: #e7ffed;
+}
+
+.november {
+    color: #ffffff;
+    background-color: #628ca6;
+}
+
+tfoot {
+    background-color: #7fb9c2;
+}
