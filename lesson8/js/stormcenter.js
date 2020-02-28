@@ -20,3 +20,11 @@ let currentMonth = months[today.getMonth()];
 let currentYear = today.getFullYear(); 
 
 document.getElementById("todaysDate").innerHTML = currentWeekday + ", " + date + " " + currentMonth + " " + currentYear;
+
+
+
+//Storm severity range
+
+function stormSeverity(range) {
+    document.getElementById("stormRange").innerHTML = range;
+}

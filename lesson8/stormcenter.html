@@ -37,8 +37,55 @@
 
                 <h2>Storm Center</h2>
 
-                <form>
-                    
+                <form method="get" action="thanks.html">
+
+                    <fieldset>
+                        <legend>Your Information</legend>
+
+                        <label>Full Name *
+                            <input type="text" minlength="5" pattern="[A-Za-z]" required>
+                        </label><br/>
+
+                        <label>Email 
+                            <input type="email" placeholder="example@trustyweather.com">
+                        </label>
+
+                        <label>Phone number *
+                           <input type="tel" required>
+                        </label>
+
+                        <label>Zip Code *
+                           <input type="number" required>
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Storm Information</legend>
+                        
+                        <label>Storm Date 
+                           <input type="date">
+                        </label>
+
+                        <label>Storm Type:</label>
+                        <list>
+                            <datalist class="storm">
+                                <option value = "Flash Flood">
+                                <option value = "Hail">
+                                <option value = "Hurricane">
+                                <option value = "Thunderstorm">
+                                <option value = "Tornado">
+                            </datalist>
+                        </list>
+
+                        <label for="stormRange">Rating: &nbsp;&nbsp;&nbsp;
+                            <input type="range" id="stormS" value="5" min="1" max="10" step="1" list="tickmarks" 
+                            oninput="stormSeverity(this.value)" onchange="stormSeverity(this.value)">
+
+                            <span id="stormRange">5</span>
+                        </label>
+                    </fieldset>
+                       
+
                 </form>
                 
 

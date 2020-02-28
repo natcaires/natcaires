@@ -8,17 +8,21 @@
     -moz-box-shadow: 10px 10px 16px 0px #6d89a8;
 }
 
-th {
+thead td {
     width: 380px;
     height: 50px;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 38px;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: 900;
     background-color: #7fb9c2;
     padding: 0.2em 0.5em;
 }
 
-td {
+.period-goals {
+    width: 37%;
+}
+
+td, th {
     padding: 0.16em 0.35em;
 }
 
@@ -28,14 +32,16 @@ table, td {
     font-family: 'Ubuntu', sans-serif;
     margin: auto;
     text-align: center;
-    height: 40px;
-    width: 380px;  
+    height: 38px;
+    width: 350px;  
 }
 
-.firstRow {
+th {
+    border: 2px solid #c1c3c2;
+    height: 38px;
     font-weight: bold;
-    font-size: 22px;
-    color: #ffffff;
+    font-size: 18px;
+    color: #ffffff; 
     background-color: #628ca6;
 }
 
@@ -43,28 +49,15 @@ tbody {
     font-size: 19px;
 }
 
-.period {
-    width: 36%;
+tr:nth-child(odd) {
+    background-color: #E7FFED;
 }
 
-.sales {
-    width: 24%;
+tbody tr {
+    background-color: #E7F0ED;
 }
 
-.gray {
-    background-color: #e7f0ed;
-}
-
-.green {
-    background-color: #e7ffed;
-}
-
-.november {
-    color: #ffffff;
-    background-color: #628ca6;
-}
-
-tfoot {
+tfoot td{
     background-color: #7fb9c2;
     font-size: 15px;
     height: 38px;

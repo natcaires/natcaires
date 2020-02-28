@@ -88,30 +88,19 @@ nav ul.hide {
     display:none;
 }
 
-.imageBlock {
-    width: 330px;
-    height: 250px;
-    background-color: #BBE2F7;
-    margin: 1em auto;
-    text-align: center;
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 350px;
+    grid-gap: 20px;
+    
 }
 
-img {
-    width: 100%;
-    height: auto;
-    filter: blur(0em);
-    transition: filter 1s;
+label {
+    padding: 3em;
 }
 
-img[data-src] {
-    filter: blur(0.2em);
-  }
 
-figcaption {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-    margin-top: 0.5em;
-}
 
 footer {
     height: 50px;
