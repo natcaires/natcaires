@@ -42,49 +42,80 @@
                     <fieldset>
                         <legend>Your Information</legend>
 
-                        <label>Full Name *
-                            <input type="text" minlength="5" pattern="[A-Za-z]" required>
-                        </label><br/>
-
-                        <label>Email 
-                            <input type="email" placeholder="example@trustyweather.com">
+                        <label class="top">Full Name *
+                            <input type="text" name="fullName" minlength="5" pattern="[A-Za-z]" required>
                         </label>
 
-                        <label>Phone number *
-                           <input type="tel" required>
+                        <label class="top">Email 
+                            <input type="email" name="email" placeholder="example@email.com">
                         </label>
 
-                        <label>Zip Code *
+                        <label class="top">Phone number *
+                           <input type="tel" name="phone" required>
+                        </label>
+
+                        <label class="top">Zip Code *
                            <input type="number" required>
                         </label>
                     </fieldset>
 
                     <fieldset>
                         <legend>Storm Information</legend>
-                        
-                        <label>Storm Date 
+
+                        <label class="top">Storm Date 
                            <input type="date">
                         </label>
 
-                        <label>Storm Type:</label>
-                        <list>
-                            <datalist class="storm">
-                                <option value = "Flash Flood">
-                                <option value = "Hail">
-                                <option value = "Hurricane">
-                                <option value = "Thunderstorm">
-                                <option value = "Tornado">
+                        <label for="types" class="top">Storm Type
+                            <input list="types" name="type">
+                        </label>
+                            <datalist id="types">
+                                <option value="Flash Flood"></option>
+                                <option value="Hail"></option>
+                                <option value="Hurricane"></option>
+                                <option value="Thunderstorm"></option>
+                                <option value="Tornado"></option>
                             </datalist>
-                        </list>
-
-                        <label for="stormRange">Rating: &nbsp;&nbsp;&nbsp;
-                            <input type="range" id="stormS" value="5" min="1" max="10" step="1" list="tickmarks" 
-                            oninput="stormSeverity(this.value)" onchange="stormSeverity(this.value)">
-
+                        
+                        <label for="stormRange" class="severity">Storm Severity &nbsp;&nbsp;&nbsp;
+                            <br>
+                            <input type="range" id="stormS" value="5" min="1" max="10" step="1" name="severity" 
+                            list="tickmarks" oninput="stormSeverity(this.value)" onchange="stormSeverity(this.value)">
                             <span id="stormRange">5</span>
                         </label>
+                        <datalist id="tickmarks">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="6"></option>
+                            <option value="7"></option>
+                            <option value="8"></option>
+                            <option value="9"></option>
+                            <option value="10"></option>
+                        </datalist>
+
+                        <label class="top">Storm Region
+                            <select name="storm-region">
+                                <option value="">Select Region...&#9662;</option>
+                                <option value="preston">Preston</option>
+                                <option value="soda-springs">Soda Springs</option>
+                                <option value="fish-heaven">Fish Heaven</option>
+                            </select>
+                        </label>
+
+                        <div class="top">User in-danger</div>
+                        <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
+                        <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
+                        <label class="sbs"><input type="radio" name="danger" value="no">No</label>
+
+                        <label class="top">Additional Information or Comments
+                            <textarea></textarea>
+                        </label>
                     </fieldset>
-                       
+
+                    <input type="submit" value="Report Storm" class="submit-buttom">
 
                 </form>
                 

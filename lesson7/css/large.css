@@ -1,4 +1,8 @@
-@media only screen and (min-width:900px){
+@media only screen and (min-width:1110px){
+
+body {
+    margin: 0;
+}
 
 nav ul li {
     font-size: 17px;
@@ -12,16 +16,21 @@ nav ul li {
 .grid1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 1.5em;
 }
 
-.imageBlock {
-    width: 540px;
-    height: 400px;
+main {
+    margin: 1em auto;
+    width: 1110px;
+}
+
+footer {
+    width: 1120px;
+    text-align: center;
 }
 
 footer {
     height: 40px;
+    margin: 1em auto;
 }
 
 .imageBlock:hover {

@@ -1,3 +1,9 @@
+body {
+    margin:0;
+}
+
+/*----------- HEADER ------------*/
+
 header {
     display: flex;
     background-color: #04195E;
@@ -36,6 +42,8 @@ h2 {
     height: 80px;
     padding: 1em 0em 1em 2em;
 }
+
+/*---------------- NAVIGATION BAR --------------*/
 
 #menu {
     font-size: 0.6em;
@@ -88,19 +96,84 @@ nav ul.hide {
     display:none;
 }
 
-form {
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 350px;
-    grid-gap: 20px;
-    
+/*-------------- FORM ------------*/
+
+form fieldset {
+    margin: 1em 0;
+    border: 1px solid #F7D660;
+    border-radius: 10px;
+    padding: .5rem 2%;
 }
 
-label {
-    padding: 3em;
+form legend {
+    color: #04195E;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
 }
 
+form label.top, form div, form label.severity {
+    display: block;
+    padding-top: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+    color: #04195E;
+}
 
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    border: solid 1px #BFBFBF;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 19rem;
+    background-color: #EDEDED;
+}
+
+form label.sbs {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input#stormS {
+    width: 70%;
+}
+
+form textarea {
+    width: 95%;
+    height: 50px;
+    background-color: #EDEDED;
+}
+
+form input.submit-buttom {
+    border: none;
+    border-radius: 7px;
+    background-color: #04195E;
+    color: #ffffff;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+/*---------------- FOOTER -------------*/
 
 footer {
     height: 50px;

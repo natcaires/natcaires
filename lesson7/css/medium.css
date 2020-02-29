@@ -1,4 +1,4 @@
-@media only screen and (min-width:700px){
+@media only screen and (min-width:740px){
 
     header {
         height: 150px;
@@ -60,7 +60,7 @@
     }
 
     .imageBlock {
-        width: 360px;
+        width: 350px;
         height: 280px;
         margin: 0.5em auto;
     }
@@ -71,6 +71,7 @@
 
     footer {
         margin-top: 2em;
+        margin-bottom: 0;
     }
 
 }

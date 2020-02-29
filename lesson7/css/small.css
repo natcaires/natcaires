@@ -1,3 +1,4 @@
+/*------------------ HEADER -------------------*/
 header {
     display: flex;
     background-color: #04195E;
@@ -40,6 +41,8 @@ h2 {
 #menu {
     font-size: 0.6em;
 }
+
+/*-------------------- NAVIGATION BAR -------------------*/
 
 nav button {
     background-color: transparent;
@@ -88,6 +91,8 @@ nav ul.hide {
     display:none;
 }
 
+/*--------------------- MAIN ------------------*/
+
 .imageBlock {
     width: 330px;
     height: 250px;
@@ -112,6 +117,8 @@ figcaption {
     font-size: 12px;
     margin-top: 0.5em;
 }
+
+/*---------------------- FOOTER -------------------*/
 
 footer {
     height: 50px;
