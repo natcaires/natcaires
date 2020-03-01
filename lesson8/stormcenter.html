@@ -67,7 +67,7 @@
                         </label>
 
                         <label for="types" class="top">Storm Type
-                            <input list="types" name="type">
+                            <input list="typeOfStorm" name="type" id="types">
                         </label>
                             <datalist id="types">
                                 <option value="Flash Flood"></option>
@@ -79,9 +79,9 @@
                         
                         <label for="stormRange" class="severity">Storm Severity &nbsp;&nbsp;&nbsp;
                             <br>
-                            <input type="range" id="stormS" value="5" min="1" max="10" step="1" name="severity" 
+                            <input type="range" id="stormRange" value="5" min="1" max="10" step="1" name="severity" 
                             list="tickmarks" oninput="stormSeverity(this.value)" onchange="stormSeverity(this.value)">
-                            <span id="stormRange">5</span>
+                            <span id="stormS">5</span>
                         </label>
                         <datalist id="tickmarks">
                             <option value="1"></option>

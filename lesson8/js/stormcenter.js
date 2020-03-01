@@ -26,5 +26,5 @@ document.getElementById("todaysDate").innerHTML = currentWeekday + ", " + date +
 //Storm severity range
 
 function stormSeverity(range) {
-    document.getElementById("stormRange").innerHTML = range;
+    document.getElementById("stormS").innerHTML = range;
 }
