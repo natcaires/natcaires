@@ -1,4 +1,5 @@
 @media only screen and (min-width:700px){
+    /*-------------------- HEADER --------------------*/
 
     header {
         height: 150px;
@@ -23,6 +24,8 @@
     .catchphrase {
         font-size: 15px;
     }
+
+    /*--------------------- NAV BAR ----------------*/
 
     nav {
         height: 50px;
@@ -51,26 +54,27 @@
         display: flex;
     }
 
-    .grid1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 1em;
-        text-align: center;
-        margin: 1em;
+    /*----------------- FORM ----------------*/
+
+    form fieldset {
+        margin: 1em auto;
+        width: 30rem;
     }
 
-    .imageBlock {
-        width: 360px;
-        height: 280px;
-        margin: 0.5em auto;
+    form legend {
+        font-size: 1.5rem;
     }
 
-    figcaption {
-        font-size: 15px;
+    form label.top, form div, form label.severity {
+        font-size: 1rem;
     }
 
-    footer {
-        margin-top: 2em;
+    form label.top input, form label.top select {
+        max-width: 28rem;
+    }
+
+    form input.submit-buttom {
+        padding: .95rem 1.5rem;
     }
 
 }

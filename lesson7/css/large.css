@@ -1,4 +1,4 @@
-@media only screen and (min-width:1110px){
+@media only screen and (min-width:1120px){
 
 body {
     margin: 0;
@@ -26,9 +26,6 @@ main {
 footer {
     width: 1120px;
     text-align: center;
-}
-
-footer {
     height: 40px;
     margin: 1em auto;
 }
