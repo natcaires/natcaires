@@ -1,0 +1,60 @@
+body{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	background-color: #273C2C;
+}
+
+h1, h2{
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: normal;
+}
+h1{
+	color: #B8DBD9;
+}
+
+h2{
+	color: #273C2C;
+	margin: 8px 0px;
+}
+main div{
+	display: grid;
+	grid-template-columns: 1fr;
+	width: 95%;
+	margin: auto;
+	grid-gap: 10px;
+}
+
+main div section {
+	background-color: #B8DBD9;
+	color: #273C2C;
+	padding: 10px;
+}
+
+main div section img{
+	width: 80%;
+}
+
+main div section p{
+	margin: 5px 0px;
+}
+
+footer {
+	background-color: #626868;
+	color: #B8DBD9;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+/*--------------- MEDIUM ----------------- */
+@media only screen and (min-width: 700px){
+	main div{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+
+/*-------------- LARGE --------------- */
+@media only screen and (min-width: 1000px){
+	main div{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+}
