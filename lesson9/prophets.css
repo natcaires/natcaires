@@ -25,7 +25,7 @@ main div {
 	grid-template-columns: 1fr;
 	width: 95%;
 	margin: auto;
-	grid-gap: 10px;
+	grid-gap: 15px;
 }
 
 main div section {
@@ -47,7 +47,7 @@ footer {
     height: 40px;
 	color: #6B0B12;
 	padding-top: 20px;
-	margin-top: 10px;
+	margin-top: 30px;
 }
 
 /*--------------- MEDIUM ----------------- */
