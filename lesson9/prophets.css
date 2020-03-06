@@ -6,12 +6,12 @@ body{
 
 h1, h2{
 	font-family: 'Fjalla One', sans-serif;
-	font-weight: normal;
 }
 h1{
     font-size: 40px;
     padding: 5px;
     color: #fff;
+    font-weight: normal;
     
 }
 
@@ -20,7 +20,7 @@ h2{
     color: #6B0B12;
 	margin: 9px 0px;
 }
-main div{
+main div {
 	display: grid;
 	grid-template-columns: 1fr;
 	width: 95%;
@@ -61,5 +61,9 @@ footer {
 @media only screen and (min-width: 1000px){
 	main div{
 		grid-template-columns: 1fr 1fr 1fr 1fr;
-	}
+    }
+    
+    h1 {
+        font-size: 45px;
+    }
 }
