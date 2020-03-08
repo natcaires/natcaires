@@ -24,14 +24,14 @@ h2 {
     font-size: 30px;
 }
 
-main div {
+main .town {
     max-width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 1em auto;
 }
 
-div section .content {
+section .town-card .content {
     display: inline;
     line-height: normal;
     width: 200px;
@@ -39,12 +39,12 @@ div section .content {
     margin: 1em auto;
 }
 
-div section img {
+section .town-card img {
     height: 200px;
     margin: 3em auto;
 }
 
-main div section {
+main section .town-card {
     width: 300px;
     height: 430px;
     margin: 0.5em;

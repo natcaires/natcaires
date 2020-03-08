@@ -67,7 +67,7 @@
         text-align: center;
     }
 
-    div section {
+    section .town-card {
         background: #CFE9F7;
         max-width: 700px;
         height: 230px;
@@ -77,16 +77,16 @@
         display: flex;
     }
 
-    div section .content {
+    section .town-card .content {
         width: 40%;
         margin: 1em 2em 1em 2em
     }
 
-    div section img {
+    section .town-card img {
         width: 300px
     }
 
-    div section:nth-child(even) {
+    section .town-card:nth-child(even) {
         flex-direction: row-reverse;
     }
 

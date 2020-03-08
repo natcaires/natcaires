@@ -42,7 +42,7 @@ fetch(requestURL)
       }
     }
       function townCard(townD) {
-        let card = document.createElement('section');
+        let card = document.createElement('div');
         let content = document.createElement('div');
         let town = document.createElement('h2');
         let motto = document.createElement('h3');
@@ -51,6 +51,7 @@ fetch(requestURL)
         let rainfall = document.createElement('p');
         let image = document.createElement('img');
 
+        card.classList.add('town-card')
         content.classList.add('content');
 
         town.textContent = townD.name;
@@ -69,7 +70,7 @@ fetch(requestURL)
         card.appendChild(content);
         card.appendChild(image);
 
-        document.querySelector('div.town').appendChild(card);
+        document.querySelector('section.town').appendChild(card);
       
       }
 

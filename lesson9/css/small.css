@@ -112,7 +112,7 @@ p.springtext {
     margin: 1.5em;
 }
 
-div section {
+section .town-card {
     background: #CFE9F7;
     max-width: 300px;
     height: 440px;
@@ -153,7 +153,7 @@ p {
     font-weight: bold;
 }
 
-div section img {
+section .town-card img {
     margin: 1em auto;
 }
 
