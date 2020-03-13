@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Preston | Trusty Weather</title>
+            <meta name="description" content="Trusty Weather Preston Page">
+            <link rel="shortcut icon" href="./images/favicon.ico">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/medium.css">
+            <link rel="stylesheet" href="css/large.css">
+        </head>
+
+        <body>
+
+            <div id="hiddenMessage"></div>
+
+            <header>
+                <img src="images/websitelogo.png" alt="website logo" id="websiteLogo">
+                <div class="websiteTitle">             
+                <h1>Trusty Weather</h1>
+                <span class="catchphrase">You can trust on us!</span>
+                </div>
+            </header>
+
+            <nav>
+                <button onclick="toggleMenu()">&#9776; <span id="menu">Menu</span></button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="https://natcaires.github.io/natcaires/lesson9/index.html">Home</a></li>
+                    <li><a class="active" href="#">Preston</a></li>
+                    <li><a href="#">Soda Springs</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="https://natcaires.github.io/natcaires/lesson8/stormcenter.html">Storm Center</a></li>
+                    <li><a href="https://natcaires.github.io/natcaires/lesson7/gallery-7.html">Gallery</a></li>
+                 </ul>
+            </nav>
+
+            <main>
+                <h2>Preston Idaho</h2>
+
+                <section class="summaryAndPic">
+                    <div class="weatherSummary">
+                        <h3 class="whiteH3">Weather Summary</h3>
+                        <p class="summaryP">Currently: <span class="summarySpan">Cloudy</span><br/>
+                                            High: <span class="summarySpan"><span id="highF">38</span>°F</span><br/>
+                                            Wind Chill: <span class="summarySpan"><span id="windChill"></span>°F</span><br/>
+                                            Humidity:   <span class="summarySpan">30%</span><br/>
+                                            Wind speed: <span class="summarySpan"><span id="windSpeed">10</span>mph</span>
+                        </p>
+                    </div>
+                    <picture>
+                        <source srcset="images/neighborhoodMedium.jpg" media="(min-width:700px) and (max-width:899px)">
+                        <source srcset="images/neighborhood.jpeg" media="(min-width:900px)">
+                        <img src="images/neighborhoodSmall.jpg" alt="neighborhood" class="heroImage">
+                    </picture>
+                </section>
+
+                <section class="fiveDayForecast">
+                    <div class="fiveDay">
+                        <h3 class="forecastH3">Mon</h3>
+                        <img src="images/sunny.png" alt="sunny icon" class="forecastImg">
+                        <p class="forecastP">65°F</p>
+                    </div>
+
+                    <div class="fiveDay">
+                        <h3 class="forecastH3">Tue</h3>
+                        <img src="images/sunny.png" alt="sunny icon" class="forecastImg">
+                        <p class="forecastP">75°F</p>
+                    </div>
+
+                    <div class="fiveDay">
+                        <h3 class="forecastH3">Wed</h3>
+                        <img src="images/rainy.png" alt="rainy icon" class="forecastImg">
+                        <p class="forecastP">50°F</p>
+                    </div>
+
+                    <div class="fiveDay">
+                        <h3 class="forecastH3">Thu</h3>
+                        <img src="images/sunny.png" alt="sunny icon" class="forecastImg">
+                        <p class="forecastP">60°F</p>
+                    </div>
+
+                    <div class="fiveDay">
+                        <h3 class="forecastH3">Fri</h3>
+                        <img src="images/rainy.png" alt="rainy icon" class="forecastImg">
+                        <p class="forecastP">52°F</p>
+                    </div>
+                </section>
+
+                <section class="article">
+                 <img src="images/articlePhoto.jpeg" alt="photo of two women" class="articlePhoto">
+
+                 <div class="articleText">
+                    <h4>Founders Day Fresco</h4>
+                    <h5>by Janica Juarez</h5>
+                    <p class="articleP">I was recently reflecting upon the founders day event
+                        held at Foundation Park each year. I have been taking
+                        the festival for granted and have not been properly 
+                        engaging in perhaps the most popular community even
+                        of the year. In response, I contacted Ms. Sharon via 
+                        email and expressed my desire to serve on the event 
+                        committee. Well, you guessed it, the phone rings almost
+                        immediately and she promptly asks me to be the event 
+                        committee chair. Literally, good grief! My appreciation
+                        for the years of dedicated, generous service of volunteers
+                        and sponsors has escalated beyond what I thought I could 
+                        feel for such a thing and... <span class="fakelink">continue to full article</span>
+                    </p>
+                 </div>
+                </section>
+
+                
+
+            </main>
+
+            <footer>
+                <div class="contactInfo">
+                    <img src="images/map.jpeg" alt="Idaho map" class="map">
+                    <div class="contactText">
+                        <p class="contactI"><span class="trustyW">Trusty Weather</span><br/>
+                        <span><img class="locationIcon" src="images/locationIcon.png" alt="location icon"></span>30 N 1st E<br/>
+                                                                                            Preston, ID 83263
+                         </p>
+
+                        <p>&#9742; 999-999-9999<br/>
+                            &#9993; contact@trustyweather.com</p>
+
+                        <span class="socialMediaIcons">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebookIcon.png" alt="Facebook" class="socialMedia"></a>
+                        <a href="https://twitter.com/home" target="_blank"><img src="images/twitterIcon.png" alt="Twitter" class="socialMedia"></a>
+                        <a href="https://www.pinterest.com/" target="_blank"><img src="images/pinterestIcon.png" alt="Pinterest" class="socialMedia"></a>
+                        </span>
+                    </div>
+
+                </div>
+                <div class="copyright">&copy; <span id="year"></span>Trusty Weather | Attributions | Nataly Caires
+                <div id="todaysDate"></div>
+                </div>
+            </footer>
+
+            <script src="js/preston-6.js"></script>
+            <script src="js/windchill.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Fjalla One', 'Roboto']}});</script>
+
+        </body>
+    </html>
