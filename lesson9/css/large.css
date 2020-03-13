@@ -46,7 +46,7 @@ section .town-card img {
 
 main section .town-card {
     width: 300px;
-    height: 430px;
+    height: 440px;
     margin: 0.5em;
     text-align: center;
     flex-wrap: wrap;
