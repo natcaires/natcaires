@@ -1,0 +1,22 @@
+@media only screen and (min-width:900px){
+
+nav ul li {
+    font-size: 17px;
+    padding-left: 0.9em;
+}
+
+.catchphrase {
+    font-size: 17px;
+}
+
+form label.sbs {
+    padding: .4rem;
+}
+
+footer {
+    margin: auto;
+    max-width: 900px;
+
+}
+
+}

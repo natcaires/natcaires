@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Home | Trusty Weather</title>
+            <meta name="description" content="Trusty Weather Home page">
+            <link rel="shortcut icon" href="images/favicon.ico">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/index-css/small.css">
+            <link rel="stylesheet" href="css/index-css/medium.css">
+            <link rel="stylesheet" href="css/index-css/large.css">
+        </head>
+
+        <body>
+            <header>
+                <img src="images/websitelogo.png" alt="website logo" id="websiteLogo">
+                <div class="websiteTitle">             
+                <h1>Trusty Weather</h1>
+                <span class="catchphrase">You can trust on us!</span>
+                </div>
+            </header>
+
+            <nav>
+                <button onclick="toggleMenu()">&#9776; <span id="menu">Menu</span></button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="preston.html">Preston</a></li>
+                    <li><a href="sodasprings.html">Soda Springs</a></li>
+                    <li><a href="fishhaven.html">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                 </ul>
+            </nav>
+
+            <main>
+                <section class="homeFirst">
+                    <h4 class="springH">Early Spring in Idaho this Year!</h4>
+
+                        <p class="springtext">As promised a month ago, Idaho is getting warm earlier this year.
+                            On the first week of March Idaho started to have beautiful sunny days.
+                            The temperature is above 40 degrees Fahrenheit in the afternoon, and the 
+                            snow is already melting. People are starting to enjoy the outdoors.</p>
+                </section>
+
+                <section class="town"></section>>
+            </main>
+
+            <footer>
+                &copy; <span id="year"></span> Nataly Caires | Idaho | <a class="byuilink" href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a>
+                <div id="todaysDate"></div>
+            </footer>
+
+            <script src="js/index-js/index.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Fjalla One', 'Roboto']}});</script>
+        
+        </body>
+
+    </html>

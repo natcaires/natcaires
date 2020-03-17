@@ -1,0 +1,80 @@
+@media only screen and (min-width:700px){
+    /*-------------------- HEADER --------------------*/
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 55px;
+        margin-top: 0.7em;
+        margin-bottom: 0.1em;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+    
+    #websiteLogo {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .catchphrase {
+        font-size: 15px;
+    }
+
+    /*--------------------- NAV BAR ----------------*/
+
+    nav {
+        height: 50px;
+        width: 100%;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav ul li {
+        font-size: 15px;
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+    }
+    
+    nav button {
+        display: none;
+    }
+    
+    nav ul.hide {
+        display: flex;
+    }
+
+    /*----------------- FORM ----------------*/
+
+    form fieldset {
+        margin: 1em auto;
+        width: 30rem;
+    }
+
+    form legend {
+        font-size: 1.5rem;
+    }
+
+    form label.top, form div, form label.severity {
+        font-size: 1rem;
+    }
+
+    form label.top input, form label.top select {
+        max-width: 28rem;
+    }
+
+    form input.submit-buttom {
+        padding: .95rem 1.5rem;
+    }
+
+}

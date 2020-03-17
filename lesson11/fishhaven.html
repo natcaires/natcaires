@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Fish Haven | Trusty Weather</title>
+            <meta name="description" content="Trusty Weather Preston Page">
+            <link rel="shortcut icon" href="images/favicon.ico">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/towns-css/small.css">
+            <link rel="stylesheet" href="css/towns-css/medium.css">
+            <link rel="stylesheet" href="css/towns-css/large.css">
+        </head>
+
+        <body>
+
+            <div id="hiddenMessage"></div>
+
+            <header>
+                <img src="images/websitelogo.png" alt="website logo" id="websiteLogo">
+                <div class="websiteTitle">             
+                <h1>Trusty Weather</h1>
+                <span class="catchphrase">You can trust on us!</span>
+                </div>
+            </header>
+
+            <nav>
+                <button onclick="toggleMenu()">&#9776; <span id="menu">Menu</span></button>
+                <ul id="primaryNav" class="hide">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="preston.html">Preston</a></li>
+                    <li><a href="sodasprings.html">Soda Springs</a></li>
+                    <li><a class="active" href="#">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                 </ul>
+            </nav>
+
+            <main>
+                <h2>Fish Haven, Idaho</h2>
+
+                <section class="summaryAndPic">
+                    <div class="weatherSummary">
+                        <h3 class="whiteH3">Weather Summary</h3>
+                        <p class="summaryP">Currently: <span class="summarySpan" id="currently"></span><br/>
+                                            <span class="summarySpan"><span id="currentTemp"></span>°F</span><br/>
+                                            High: <span class="summarySpan"><span id="highF"></span>°F</span><br/>
+                                            Wind Chill: <span class="summarySpan"><span id="windChill"></span></span><br/>
+                                            Humidity:   <span class="summarySpan"><span id="humidity"></span>%</span><br/>
+                                            Wind speed: <span class="summarySpan"><span id="windSpeed"></span>mph</span>
+                        </p>
+                    </div>
+                    <picture>
+                        <source srcset="images/preston-images/neighborhoodMedium.jpg" media="(min-width:700px) and (max-width:899px)">
+                        <source srcset="images/preston-images/neighborhood.jpeg" media="(min-width:900px)">
+                        <img src="images/preston-images/neighborhoodSmall.jpg" alt="neighborhood" class="heroImage">
+                    </picture>
+                </section>
+
+                <section class="fiveDayForecast">
+                    <div class="fiveDay">
+                        <h3 class="forecastH3"></h3>
+                        <img src="#" alt="" id="forecastImg1">
+                        <p><span id="forecastP1"></span>°F</p>
+                    </div>
+
+                    <div class="fiveDay">
+                        <h3 class="forecastH3"></h3>
+                        <img src="#" alt="" id="forecastImg2">
+                        <p><span id="forecastP2"></span>°F</p>
+                    </div>
+
+                    <div class="fiveDay">
+                        <h3 class="forecastH3"></h3>
+                        <img src="#" alt="" id="forecastImg3">
+                        <p><span id="forecastP3"></span>°F</p>
+                    </div>
+
+                    <div class="fiveDay">
+                        <h3 class="forecastH3"></h3>
+                        <img src="#" alt="" id="forecastImg4">
+                        <p><span id="forecastP4"></span>°F</p>
+                    </div>
+
+                    <div class="fiveDay">
+                        <h3 class="forecastH3"></h3>
+                        <img src="#" alt="" id="forecastImg5">
+                        <p><span id="forecastP5"></span>°F</p>
+                    </div>
+                </section>
+
+                <section class="article">
+                 <img src="images/preston-images/articlePhoto.jpeg" alt="photo of two women" class="articlePhoto">
+
+                 <div class="articleText">
+                    <h4>Founders Day Fresco</h4>
+                    <h5>by Janica Juarez</h5>
+                    <p class="articleP">I was recently reflecting upon the founders day event
+                        held at Foundation Park each year. I have been taking
+                        the festival for granted and have not been properly 
+                        engaging in perhaps the most popular community even
+                        of the year. In response, I contacted Ms. Sharon via 
+                        email and expressed my desire to serve on the event 
+                        committee. Well, you guessed it, the phone rings almost
+                        immediately and she promptly asks me to be the event 
+                        committee chair. Literally, good grief! My appreciation
+                        for the years of dedicated, generous service of volunteers
+                        and sponsors has escalated beyond what I thought I could 
+                        feel for such a thing and... <span class="fakelink">continue to full article</span>
+                    </p>
+                 </div>
+                </section>
+
+                
+
+            </main>
+
+            <footer>
+                <div class="contactInfo">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5926.478648905153!2d-111.40050140031714!3d42.03804813475241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x875415e9bdab006f%3A0xc1864ed86dd2b0e4!2sFish%20Haven%2C%20Idaho%2083287!5e0!3m2!1ses-419!2sus!4v1584419812846!5m2!1ses-419!2sus"
+                    width="410" height="269" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <div class="contactText">
+                        <p class="contactI"><span class="trustyW">Trusty Weather</span><br/>
+                        <span><img class="locationIcon" src="images/preston-images/locationIcon.png" alt="location icon"></span>40 N 1st W<br/>
+                                                                                            Fish Haven, ID 83287
+                         </p>
+
+                        <p>&#9742; 999-999-9999<br/>
+                            &#9993; contact@trustyweather.com</p>
+
+                        <span class="socialMediaIcons">
+                        <a href="https://www.facebook.com/" target="_blank"><img src="images/preston-images/facebookIcon.png" alt="Facebook" class="socialMedia"></a>
+                        <a href="https://twitter.com/home" target="_blank"><img src="images/preston-images/twitterIcon.png" alt="Twitter" class="socialMedia"></a>
+                        <a href="https://www.pinterest.com/" target="_blank"><img src="images/preston-images/pinterestIcon.png" alt="Pinterest" class="socialMedia"></a>
+                        </span>
+                    </div>
+
+                </div>
+                <div class="copyright">&copy; <span id="year"></span>Trusty Weather | Attributions | Nataly Caires
+                <div id="todaysDate"></div>
+                </div>
+            </footer>
+
+            <script src="js/preston-js/preston.js"></script>
+            <script src="js/preston-js/windchill.js"></script>
+            <script src="js/preston-js/fiveDayForecast.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Fjalla One', 'Roboto']}});</script>
+
+        </body>
+    </html>
