@@ -1,0 +1,141 @@
+@media only screen and (min-width:1000px){
+
+/*--------------- NAV & HEADER -----------------*/
+
+nav ul li {
+    font-size: 17px;
+    padding-left: 0.9em;
+}
+
+.catchphrase {
+    font-size: 17px;
+}
+
+/*---------------- HOME PAGE -------------------*/
+
+.homeMain .homeFirst {
+    max-width: 1000px;
+    margin: 1em auto;
+}
+
+.homeMain p.springtext {
+    max-width: 800px;
+    margin: 2em 10%;
+    text-align: center;
+}
+
+.homeMain h2 {
+    font-size: 30px;
+}
+
+.indexBody main .town {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 1em auto;
+}
+
+.indexBody section .town-card .content {
+    display: inline;
+    line-height: normal;
+    width: 200px;
+    height: 150px;
+    margin: 1em auto;
+}
+
+.indexBody section .town-card img {
+    height: 200px;
+    margin: 3em auto;
+}
+
+.indexBody main section .town-card {
+    width: 300px;
+    height: 440px;
+    margin: 0.5em;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/*--------------- TOWN PAGES --------------*/
+
+main .townMain {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.heroImage {
+    margin-bottom: 1em;
+}
+
+.summaryAndPic {
+    margin: 10px auto;
+    width: 960px;
+    height: 400px;
+}
+
+.fiveDayForecast {
+    margin-top: 5.5em;
+}
+
+.article {
+    width: 890px;
+    margin: 0.5em auto;
+}
+
+.articleText {
+    padding: 1em;
+}
+
+/*------------------ TOWN FOOTER ----------------*/
+
+.townBody .townFooter {
+    width: 960px;
+    margin: 3em auto 0em auto;
+}
+
+.map {
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+.contactText {
+    margin: 2em 1em 2em 8em;
+}
+
+/*---------------- FORM --------------*/
+
+form label.sbs {
+    padding: .4rem;
+}
+
+/*--------------- GALLERY ---------------*/
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1110px;
+    margin: 1em auto;
+}
+
+/*---------------- THANKS PAGE -----------------*/
+
+.thankyou {
+    font-size: 33px;
+    padding: 2em;
+}
+
+.thankyou2 {
+    font-size: 25px;
+}
+
+/*---------------- NORMAL FOOTER ----------------*/
+
+.galleryBody .normalFooter,
+.stormBody .normalFooter,
+.indexBody .normalFooter {
+    margin: 1em auto 0 auto;
+    max-width: 1120px;
+
+}
+
+}

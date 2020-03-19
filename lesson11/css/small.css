@@ -1,0 +1,480 @@
+body {
+    margin:0;
+}
+
+/*----------- HEADER ------------*/
+
+header {
+    display: flex;
+    background-color: #04195E;
+    height: 110px;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Fjalla One', 'sans-serif';
+    padding: 0em 0.5em 0em 0.5em;
+    margin-bottom: 0;
+    margin-top: 1em;;
+
+}
+
+.catchphrase {
+    color: #F7D660;
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 12px;
+    margin: 0;
+}
+
+#websiteLogo {
+    width: 80px;
+    height: 80px;
+    padding: 1em 0em 1em 2em;
+}
+
+/*---------------- NAVIGATION BAR --------------*/
+
+#menu {
+    font-size: 0.6em;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    margin: auto 38%;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    background-color: #F7D660;
+    width: 100%;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.8em 2%;
+    text-decoration: none;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000000;
+    text-align: center;
+   
+}
+
+nav a:hover {
+    color: #F7D660;
+    background-color: #04195E;
+}
+
+.active {
+    color: #F7D660;
+    background-color: #04195E;
+}
+
+nav ul.hide {
+    display:none;
+}
+
+/*---------------- HOME PAGE ------------------*/
+
+.homeMain h2 {
+    font-family: 'Fjalla One', 'sans-serif';
+    font-size: 32px;
+    text-align: center;
+    color: #04195E;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+}
+
+.homeMain h3 {
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 12px;
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+}
+
+.homeMain h4 {
+    font-family: 'Fjalla One', 'sans-serif';
+    font-size: 35px;
+    text-align: center;
+    color: #04195E;
+    margin: 1em auto;
+}
+
+.homeMain p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    padding: 0.1em;
+    color: #04195E;
+    font-weight: bold;
+}
+
+.homeFirst {
+    background-color: #F7E7AD;
+    padding: 0.5em;
+    margin: 1em auto;
+    max-width: 300px;
+}
+
+
+.homeMain h2.springH {
+    margin: 1em;
+}
+
+.homeMain p.springtext {
+    max-width: 300px;
+    font-size: 17px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    margin: 1.5em;
+}
+
+.homeMain section .town-card {
+    background: #CFE9F7;
+    max-width: 300px;
+    height: 440px;
+    text-align: center;
+    padding: 0.5em;
+    margin: 1em auto;
+}
+
+.homeMain section .town-card img {
+    margin: 1em auto;
+}
+
+/*---------------- TOWN PAGE --------------*/
+
+.townMain h2 {
+    font-family: 'Fjalla One', 'sans-serif';
+    font-size: 20px;
+    text-align: center;
+}
+
+.townMain h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: 400;
+    color: #000;
+    font-weight: bold;
+}
+
+.townMain h4 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    padding-left: 1em;
+    margin: 0;
+
+}
+
+.townMain h5 {
+    color: #04195E;
+    padding-left: 1.5em;
+    margin: 0.5em;
+}
+
+.heroImage {
+    width: 100%;
+    height: auto;
+}
+
+.summaryAndPic {
+    position: relative;
+}
+
+.weatherSummary {
+    background-color: rgba(40, 120, 163, 0.5);
+    width: 170px;
+    height: 166px;
+    margin: 0.7em;
+    position: absolute;
+    text-align: center;
+
+}
+
+.townMain .whiteH3 {
+    font-size: 17px;
+    margin-top: 0.3em;
+    margin-bottom: 0;
+    text-align: start;
+    color: #ffffff;
+}
+
+.summaryP {
+    margin-top: 0;
+    color: #ffffff;
+    font-family: 'Roboto', 'sans-serif';
+    margin-top: 0;
+}
+
+.townMain .summarySpan {
+    color: #F7D660;
+}
+
+.fiveDayForecast {
+    display: none;
+}
+
+ .article {
+    background-color: #99D6F7;
+    margin: 0.7em;
+}
+
+.articlePhoto {
+    width: 90%;
+    height: auto;
+    padding: 1em;
+    
+}
+
+.articleText {
+    text-align: start;
+}
+
+.articleP {
+    font-size: 15px;
+    padding: 0.7em;
+    margin-top: 0.2em;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.fakelink {
+    font-size: 12px;
+    color: purple;
+    text-decoration: underline;
+}
+
+/*------------ TOWN FOOTER ------------*/
+
+.map {
+    display: none;
+}
+
+.contactInfo {
+    margin-top: 0;
+    margin-bottom: -1em;
+    padding: 2em;
+    background-color: #BFBFBF;
+}
+
+.contactI {
+    margin: 0;
+    font-family: 'Roboto', 'sans-serif';
+    padding: 0.5em;
+    font-size: 15px;
+}
+
+.trustyW {
+    font-weight: bold;
+    font-family: 'Fjalla One', 'sans-serif';
+}
+
+.locationIcon {
+    width: 20px;
+    height: 20px;
+    padding-top: 5px;
+}
+
+.copyright {
+    height: 50px;
+    padding-top: 1em;
+    background-color: #04195E;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.socialMedia {
+    width: 30px;
+    padding: 0.5em;
+}
+
+/*---------------- FORM -------------*/
+
+.stormMain .stormCenterH2 {
+    font-family: 'Fjalla One', 'sans-serif';
+    font-size: 30px;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+form fieldset {
+    margin: 1em 0;
+    border: 1px solid #F7D660;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    text-align: start;
+}
+
+form legend {
+    color: #04195E;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+form label.top, form div, form label.severity {
+    display: block;
+    padding-top: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+    color: #04195E;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    border: solid 1px #BFBFBF;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 19rem;
+    background-color: #EDEDED;
+}
+
+form label.sbs {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: .75rem 0;
+    color: #555;
+}
+
+form input#stormRange {
+    width: 70%;
+}
+
+form textarea {
+    width: 95%;
+    height: 50px;
+    background-color: #EDEDED;
+}
+
+form input.submit-buttom {
+    border: none;
+    border-radius: 7px;
+    background-color: #04195E;
+    color: #ffffff;
+    padding: .75rem 1.5rem;
+    margin: 2rem auto;
+    text-align: center;
+    width: 96%;
+    max-width: 20rem;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+/*--------------- GALLERY -------------*/
+
+.galleryH2 {
+    font-family: 'Fjalla One', 'sans-serif';
+    font-size: 25px;
+    text-align: center;
+    color: #04195E;
+}
+
+.imageBlock {
+    width: 330px;
+    height: 250px;
+    background-color: #BBE2F7;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.grid1 img {
+    width: 100%;
+    height: auto;
+    filter: blur(0em);
+    transition: filter 1s;
+}
+
+.grid1 img[data-src] {
+    filter: blur(0.2em);
+  }
+
+figcaption {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    margin-top: 0.5em;
+}
+
+/*--------------- THANKS PAGE ----------------*/
+
+.thankyou {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+    margin: 3em auto;
+    padding: 1em;
+    color: #04195E;
+    text-align: center;
+}
+
+.thankyou2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: normal;
+    text-align: center;
+}
+
+.thanksBody .thanksFooter {
+    height: 50px;
+    background-color: #04195E;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 1em;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    
+}
+
+/*---------------- NORMAL FOOTER -------------*/
+
+footer.normalFooter {
+    height: 50px;
+    background-color: #04195E;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.byuilink {
+    color: #ffffff;
+}
+
+.byuilink:hover {
+    color: #F7D660
+}

@@ -1,0 +1,266 @@
+@media only screen and (min-width:700px){
+    /*-------------------- HEADER --------------------*/
+
+    header {
+        height: 150px;
+        width: 100%;
+    }
+    
+    h1 {
+        font-size: 55px;
+        margin-top: 0.7em;
+        margin-bottom: 0.1em;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+    
+    #websiteLogo {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .catchphrase {
+        font-size: 15px;
+    }
+
+    /*--------------------- NAV BAR ----------------*/
+
+    nav {
+        height: 50px;
+        width: 100%;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    nav ul li {
+        font-size: 15px;
+        flex: 1 1 100%;
+    }
+
+    nav ul li a {
+        border: none;
+    }
+    
+    nav button {
+        display: none;
+    }
+    
+    nav ul.hide {
+        display: flex;
+    }
+
+    /*----------------- HOME PAGE ----------------*/
+
+    .homeMain h2 {
+        margin-top: 0;
+    }
+
+    .homeMain .homeFirst {
+        max-width: 700px;
+        margin: 1em auto;
+    }
+    
+    .homeMain p.springtext {
+        max-width: 600px;
+        margin: 2em 10%;
+        text-align: center;
+    }
+
+    .homeMain section .town-card {
+        background: #CFE9F7;
+        max-width: 700px;
+        height: 230px;
+        text-align: center;
+        padding: 0.5em;
+        margin: 1em auto;
+        display: flex;
+    }
+
+    .homeMain section .town-card .content {
+        width: 40%;
+        margin: 1em 2em 1em 2em
+    }
+
+    .homeMain section .town-card img {
+        width: 300px
+    }
+
+    .homeMain section .town-card:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    /*------------------- TOWN PAGES -----------------*/
+
+    .hiddenMessage {
+        font-size: 25px;
+    }
+
+    .summaryAndPic {
+        text-align: center;
+    }
+
+    .weatherSummary {
+        width: 250px;
+        height: 240px;  
+        margin: 1.5em;  
+        text-align: center; 
+    }
+
+    .summaryP {
+        font-size: 20px;
+    }
+
+    .townMain .whiteH3 {
+        font-size: 26px;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .fiveDayForecast {
+        display: flex;
+        justify-content: center;
+        margin: 3em;
+    }
+
+    .fiveDay {
+        width: 100px;
+        height: auto;
+        text-align: center;
+        margin: 3px;
+        background-color: #D3D3D3;
+        font-family: 'Roboto', 'sans-serif';
+    }
+
+    .townMain .forecastH3 {
+        font-size: 17px;
+        background-color: #04195E;
+        color: #ffffff;
+        width: 82px;
+        margin-top: 0;
+    }
+
+    #forecastImg1,
+    #forecastImg2,
+    #forecastImg3,
+    #forecastImg4,
+    #forecastImg5 {
+        width: 70px;
+        height: 70px;
+        
+    }
+
+    .article {
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        padding: 1em;
+    }
+    .articlePhoto {
+        width: 45%;
+        margin: 0;
+        padding: 0;
+        align-self: center;
+    }
+
+    .articleText {
+        margin: 0;
+        padding: 2em 0em 2em 2em;
+    }
+
+    .contactInfo {
+        display: flex;
+    }
+
+    footer.townFooter {
+        margin-top: 2em;
+    }
+
+    .map {
+        display: block;
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+
+    .contactText {
+        margin: 2em 1em 2em 2em;
+    }
+
+    .copyright {
+        font-size: 15px;
+    }
+
+    /*------------------- FORM ------------------*/
+
+    .stormMain .stormCenterH2 {
+        font-size: 45px;
+    }
+
+    form fieldset {
+        margin: 1em auto;
+        width: 30rem;
+    }
+
+    form legend {
+        font-size: 1.5rem;
+    }
+
+    form label.top, form div, form label.severity {
+        font-size: 1rem;
+    }
+
+    form label.top input, form label.top select {
+        max-width: 28rem;
+    }
+
+    form input.submit-buttom {
+        padding: .95rem 1.5rem;
+    }
+
+    /*----------------- GALLERY -----------------*/
+
+    .galleryH2 {
+        font-size: 40px;
+    }
+
+    .grid1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1em;
+        text-align: center;
+        margin: 1em;
+    }
+
+    .imageBlock {
+        width: 350px;
+        height: 280px;
+        margin: 0.5em auto;
+    }
+
+    figcaption {
+        font-size: 15px;
+    }
+
+    /*-------------- THANKS PAGE -------------*/
+
+    .thankyou {
+        font-size: 35px;
+        margin: 3em;
+        padding: 1em;
+    }
+    
+    .thankyou2 {
+        font-size: 22px;
+    }
+
+    .thanksBody .thanksFooter {
+        margin-top: 2em;
+    }
+
+}
