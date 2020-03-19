@@ -468,13 +468,5 @@ footer.normalFooter {
     background-color: #04195E;
     color: #ffffff;
     text-align: center;
-    padding-top: 1em;
-}
-
-.byuilink {
-    color: #ffffff;
-}
-
-.byuilink:hover {
-    color: #F7D660
+    padding-top: 0.5em;
 }
