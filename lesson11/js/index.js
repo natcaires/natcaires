@@ -50,7 +50,7 @@ fetch(requestURL)
         let rainfall = document.createElement('p');
         let image = document.createElement('img');
 
-        card.classList.add('town-card')
+        card.classList.add('town-card');
         content.classList.add('content');
 
         town.textContent = townD.name;
@@ -58,7 +58,7 @@ fetch(requestURL)
         yearFounded.textContent = "Year Founded: " + townD.yearFounded;
         population.textContent = "Population: " + townD.currentPopulation;
         rainfall.textContent = "Annual Rain Fall: " + townD.averageRainfall;
-        image.setAttribute('src', 'images/index-images/'+townD.photo);
+        image.setAttribute('src', 'images/'+townD.photo);
         image.setAttribute('alt', (townD.name));
 
         content.appendChild(town);

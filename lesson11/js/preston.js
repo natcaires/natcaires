@@ -33,3 +33,48 @@ let currentMonth = months[today.getMonth()];
 let currentYear = today.getFullYear(); 
 
 document.getElementById("todaysDate").innerHTML = currentWeekday + ", " + date + " " + currentMonth + " " + currentYear;
+
+//Events
+
+const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) { 
+    const towns = jsonObject['towns'];
+
+    for (let i = 0; i <towns.length; i++){
+      if (towns[i].name == "Preston"){ 
+        getEvents(towns[i]);
+      }
+    }
+      function getEvents(townD) {
+        let eventsCard = document.createElement('div')
+        let image = document.createElement('img');
+        let title = document.createElement('h2');
+        let eventsDates = document.createElement('div');
+        let eventP = document.createElement('p');
+
+        eventsCard.classList.add('eventsCard');
+        image.classList.add('thinImg');
+        title.classList.add('titleH2');
+        eventsDates.classList.add('eventsDates');
+        eventP.classList.add('eventsP')
+
+        image.setAttribute('src', 'images/preston2.jpeg');
+        image.setAttribute('alt', "sunset");
+        title.textContent = "Upcoming Events:";
+        eventP.textContent = townD.events;
+
+        eventsCard.appendChild(image);
+        eventsCard.appendChild(title);
+        eventsDates.appendChild(eventP)
+        eventsCard.appendChild(eventsDates);
+
+        document.querySelector('section.events').appendChild(eventsCard);
+
+      }
+
+    });

@@ -63,6 +63,10 @@ main .townMain {
     margin: 0 auto;
 }
 
+.townMain h2 {
+    font-size: 35px;
+}
+
 .heroImage {
     margin-bottom: 1em;
 }
@@ -75,6 +79,10 @@ main .townMain {
 
 .fiveDayForecast {
     margin-top: 5.5em;
+}
+
+.townMain .events {
+    width: 830px;
 }
 
 .article {
