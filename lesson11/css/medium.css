@@ -161,7 +161,7 @@
 
     .events .eventsDates .eventsP {
         font-size: 20px;
-        padding: 0.5em auto 0em auto;
+        padding: 0.5em 1em 0em 1em;
     }
 
     .article {
