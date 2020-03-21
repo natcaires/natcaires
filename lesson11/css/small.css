@@ -481,3 +481,7 @@ footer.normalFooter {
 footer .whiteLink {
     color: #ffffff;
 }
+
+footer .whiteLink:hover {
+    color: #F7D660;
+}
