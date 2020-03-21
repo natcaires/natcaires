@@ -12,28 +12,6 @@ if (dayOfWeek == 5){
   }
 
 
-//Toggle Menu function.
-function toggleMenu() {
-    document.getElementById("primaryNav").classList.toggle("hide");
-}
-
-
-//Current Date
-let today = new Date();
-
-var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]; 
-let currentWeekday = days[today.getDay()]; 
-
-let date = today.getDate(); 
-
-var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]; 
-
-let currentMonth = months[today.getMonth()]; 
-
-let currentYear = today.getFullYear(); 
-
-document.getElementById("todaysDate").innerHTML = currentWeekday + ", " + date + " " + currentMonth + " " + currentYear;
-
 //Events
 
 const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
@@ -55,22 +33,33 @@ fetch(requestURL)
         let image = document.createElement('img');
         let title = document.createElement('h2');
         let eventsDates = document.createElement('div');
-        let eventP = document.createElement('p');
+        let eventP1 = document.createElement('p');
+        let eventP2 = document.createElement('p');
+        let eventP3 = document.createElement('p');
+        let line = document.createElement('hr');
 
         eventsCard.classList.add('eventsCard');
         image.classList.add('thinImg');
         title.classList.add('titleH2');
         eventsDates.classList.add('eventsDates');
-        eventP.classList.add('eventsP')
+        eventP1.classList.add('eventsP');
+        eventP2.classList.add('eventsP');
+        eventP3.classList.add('eventsP');
+        line.classList.add('line');
 
         image.setAttribute('src', 'images/preston2.jpeg');
         image.setAttribute('alt', "sunset");
         title.textContent = "Upcoming Events:";
-        eventP.textContent = townD.events;
+        eventP1.textContent = townD.events[0];
+        eventP2.textContent = townD.events[1];
+        eventP3.textContent = townD.events[2];
 
         eventsCard.appendChild(image);
         eventsCard.appendChild(title);
-        eventsDates.appendChild(eventP)
+        eventsCard.appendChild(line);
+        eventsDates.appendChild(eventP1);
+        eventsDates.appendChild(eventP2);
+        eventsDates.appendChild(eventP3);
         eventsCard.appendChild(eventsDates);
 
         document.querySelector('section.events').appendChild(eventsCard);

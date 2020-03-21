@@ -91,20 +91,20 @@ nav ul.hide {
 
 /*---------------- HOME PAGE ------------------*/
 
-.homeMain h2 {
+h2 {
     font-family: 'Fjalla One', 'sans-serif';
     font-size: 32px;
     text-align: center;
     color: #04195E;
-    margin-bottom: 0;
+    margin-bottom: 0.7em;
     margin-top: 0.5em;
 }
 
 .homeMain h3 {
     font-family: 'Roboto', 'sans-serif';
     font-size: 12px;
-    margin-top: 1em;
-    margin-bottom: 2.5em;
+    margin-top: 0.3em;
+    margin-bottom: 0.7em;
 }
 
 .homeMain h4 {
@@ -158,12 +158,6 @@ nav ul.hide {
 }
 
 /*---------------- TOWN PAGE --------------*/
-
-.townMain h2 {
-    font-family: 'Fjalla One', 'sans-serif';
-    font-size: 25px;
-    text-align: center;
-}
 
 .townMain h3 {
     font-family: 'Roboto', sans-serif;
@@ -242,11 +236,20 @@ nav ul.hide {
     width: 100%;
 }
 
+.eventsDates {
+    padding: 1em 0.5em 2em 0.5em;
+}
+
+.line {
+    width: 60%;
+    color: #555;
+}
+
 .events .eventsDates .eventsP {
     font-family: 'Roboto', 'sans-serif';
     text-align: center;
-    margin: 0em 1.5em 2em 1.5em;
-    padding: 0.5em 1.5em 2em 1.5em;
+    padding: 0.2em auto 0em auto;
+    font-style: italic;
 }
 
  .article {
@@ -325,12 +328,6 @@ nav ul.hide {
 }
 
 /*---------------- FORM -------------*/
-
-.stormMain .stormCenterH2 {
-    font-family: 'Fjalla One', 'sans-serif';
-    font-size: 30px;
-    text-align: center;
-}
 
 form {
     text-align: center;
@@ -415,13 +412,6 @@ form label.top input:required:valid {
 
 /*--------------- GALLERY -------------*/
 
-.galleryH2 {
-    font-family: 'Fjalla One', 'sans-serif';
-    font-size: 25px;
-    text-align: center;
-    color: #04195E;
-}
-
 .imageBlock {
     width: 330px;
     height: 250px;
@@ -486,4 +476,8 @@ footer.normalFooter {
     color: #ffffff;
     text-align: center;
     padding-top: 0.5em;
+}
+
+footer .whiteLink {
+    color: #ffffff;
 }

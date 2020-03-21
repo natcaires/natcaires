@@ -96,6 +96,10 @@ main .townMain {
 
 /*------------------ TOWN FOOTER ----------------*/
 
+.fiveDayForecast {
+    margin-top: 2.5em;
+}
+
 .townBody .townFooter {
     width: 960px;
     margin: 3em auto 0em auto;
@@ -141,7 +145,7 @@ form label.sbs {
 .galleryBody .normalFooter,
 .stormBody .normalFooter,
 .indexBody .normalFooter {
-    margin: 1em auto 0 auto;
+    margin: 0em auto 0 auto;
     max-width: 1120px;
 }
 

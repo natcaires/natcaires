@@ -17,7 +17,7 @@
             <div id="hiddenMessage"></div>
 
             <header>
-                <img src="images/websitelogo.png" alt="website logo" id="websiteLogo">
+                <a href="index.html"><img src="images/websitelogo.png" alt="website logo" id="websiteLogo"></a>
                 <div class="websiteTitle">             
                 <h1>Trusty Weather</h1>
                 <span class="catchphrase">You can trust on us!</span>
@@ -89,6 +89,8 @@
                     </div>
                 </section>
 
+                <section class="events"></section>
+
                 <section class="article">
                  <img src="images/articlePhoto.jpg" alt="photo of 4 people" class="articlePhoto">
 
@@ -129,13 +131,13 @@
                     </div>
 
                 </div>
-                <div class="copyright">&copy; <span id="year"></span>Trusty Weather | Attributions | Nataly Caires
-                <div id="todaysDate"></div>
-                </div>
+                    <div class="copyright">&copy; <span id="year"></span>Trusty Weather | Nataly Caires | <a class="whiteLink" href="https://openweathermap.org/" target="_blank">OpenWeather</a>
+                        <div id="todaysDate"></div>
+                    </div>
             </footer>
 
-            <script src=""></script>
-            <script src=""></script>
+            <script src="js/menuAndDate.js"></script>
+            <script src="js/sodasprings-events.js"></script>
             <script src=""></script>
             <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
             <script>WebFont.load({google: {families: ['Fjalla One', 'Roboto']}});</script>
