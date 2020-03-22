@@ -275,12 +275,6 @@ h2 {
     font-family: 'Roboto', 'sans-serif';
 }
 
-.fakelink {
-    font-size: 12px;
-    color: purple;
-    text-decoration: underline;
-}
-
 /*------------ TOWN FOOTER ------------*/
 
 .map {
@@ -323,7 +317,7 @@ h2 {
 }
 
 .socialMedia {
-    width: 30px;
+    width: 40px;
     padding: 0.5em;
 }
 
