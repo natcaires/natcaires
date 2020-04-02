@@ -25,6 +25,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #f7f7f2;;
 }
 
+.headerAdv {
+    color: #f7f7f2;
+}
+
 .mainHeader li {
     list-style: none;
     
@@ -47,7 +51,7 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1em;
-    margin: auto 40%;
+    margin: auto 39%;
     padding: 0.5em;
     font-weight: lighter;
     font-family: 'Roboto Condensed', sans-serif;
@@ -90,16 +94,17 @@ img.rafting1 {
 
 .sectionTitleText {
     display: flex;
-    position: absolute;
     color: #fff;  
 }
 
 .mainTitle {
-    padding: 0 1em 0 1em;
+    padding: 0.5em 1em 0 1em;
+    position: absolute;
     margin-top: 2em;
-    margin-right: 1.2em;
+    margin-right: 1em;
     background-color: rgba(0, 0, 0, 0.444);
     height: 60px;
+    font-size: 20px;
 }
 
 #mainAdv {
@@ -107,12 +112,16 @@ img.rafting1 {
 }
 .weather {
     background-color: #37b7b37c;
+    position: absolute;
     justify-content: end;
-    height: 162px;
+    right: 0;
+    height: 155px;
+    margin-right: 0;
+    margin-left: auto;
 }
 
 h3.whiteH3 {
-    margin: 0.2em 1em 0.2em 1em;
+    margin: 0.1em 1em 0.1em 1em;
 }
 
 .summaryP {
@@ -128,7 +137,7 @@ h3.whiteH3 {
 }
 
 .activities {
-    width: 325px;
+    width: 320px;
     text-align: center;
     margin: 2em auto;
     background-color: #00bcd4;
@@ -157,15 +166,18 @@ hr {
 
 .Pflex {
     display: flex;
+    width: 80%;
+    text-align: center;
     font-family: 'Nunito Sans', sans-serif;
-    font-size: 15px;
+    font-size: 14px;
+    margin: 0 auto 1em auto;
+    padding: 0.7em 0.7em 0.7em 1.5em;
     color: #f7f7f2;
 }
 
 .activitiesP1 {
-    padding: 1em 0.5em 1em 2em;
+    padding-right: 0.5em;
     text-align: end;
-    margin-top: 0;
 }
 
 .activitiesP2 {
@@ -184,7 +196,7 @@ hr {
 
 .callToAction {
     color: #f7f7f2;
-    font-size: 40px;
+    font-size: 35px;
     padding: 1em 1em 0.5em 1em;
 }
 
@@ -240,8 +252,8 @@ hr {
     text-align: center;
     color: #f7f7f2;
     background-color: #161925;
-    padding: 1em;
-    font-size: 15px;
+    padding: 1em 0;
+    font-size: 12px;
  }
 
  .whiteLink {
