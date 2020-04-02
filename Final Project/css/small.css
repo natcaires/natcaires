@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', 'sans-serif';
+}
+
+/* -------------- HEADER -------------- */
+
+.mainHeader {
+    background-color: #161925;
+    width: 100%;
+}
+.websiteTitle {
+    display: flex;
+}
+
+.websiteTitle img {
+    width: 60px;
+    padding: 1em 0.7em 1em 1em;
+}
+
+.mainHeader h2, .navbarItem {
+    color: #f7f7f2;;
+}
+
+.mainHeader li {
+    list-style: none;
+    
+}
+
+.navbarList {
+    margin-bottom: 0;
+}
+
+.mainHeader a {
+    text-decoration: none;
+    font-family: 'Roboto Condensed', 'sans-serif';
+}
+
+.hide {
+    display: none;
+}
+
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    margin: auto 40%;
+    padding: 0.5em;
+    font-weight: lighter;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#menu {
+    color: #f7f7f2;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.8em 2%;
+    color: #37b7b3;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: start;
+    margin-left: 29%;
+}
+
+nav ul li a:hover {
+    color: #f7f7f2;
+}
+
+/* ---------------- HOME MAIN ---------------*/
+
+/* Section 1*/
+
+section {
+    width: 100%;
+}
+
+section img {
+    width: 100%;
+}
+
+img.rafting1 {
+   position: relative;
+}
+
+.sectionTitleText {
+    display: flex;
+    position: absolute;
+    color: #fff;  
+}
+
+.mainTitle {
+    padding: 0 1em 0 1em;
+    margin-top: 2em;
+    margin-right: 1.2em;
+    background-color: rgba(0, 0, 0, 0.444);
+    height: 60px;
+}
+
+#mainAdv {
+    display: block;
+}
+.weather {
+    background-color: #37b7b37c;
+    justify-content: end;
+    height: 162px;
+}
+
+h3.whiteH3 {
+    margin: 0.2em 1em 0.2em 1em;
+}
+
+.summaryP {
+    margin: 0.2em 1em 0.2em 1em;
+    font-family: 'Roboto Condensed', 'sans-serif';
+    text-align: end;
+}
+
+/* Section 2 */
+
+.activities-section {
+    text-align: center;
+}
+
+.activities {
+    width: 325px;
+    text-align: center;
+    margin: 2em auto;
+    background-color: #00bcd4;
+}
+
+.activitiesImg {
+    width: 100%;
+}
+
+.activities-section .activitiesH4 {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+hr {
+    border-style: none;
+    width: 50%;
+    height: 1px;
+    background-color: #1619254e;
+}
+
+.guideH4 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.Pflex {
+    display: flex;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: #f7f7f2;
+}
+
+.activitiesP1 {
+    padding: 1em 0.5em 1em 2em;
+    text-align: end;
+    margin-top: 0;
+}
+
+.activitiesP2 {
+    text-align: start;
+    padding-left: 0.5em;
+}
+
+/* Section 3 */
+
+.calltoActSec {
+    background-color: #161925;
+    width: 100%;
+    height: 280px;
+    text-align: center;
+}
+
+.callToAction {
+    color: #f7f7f2;
+    font-size: 40px;
+    padding: 1em 1em 0.5em 1em;
+}
+
+.clickHere {
+    color: #ffffff;
+    background-color: #00bcd4;
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.5em 0.7em;
+    border-radius: 6px;
+}
+
+
+/* ---------------- FOOTER -------------------*/
+
+ footer {
+    width: 100%;
+ }
+
+ .contactFooter {
+    margin-top: 2em;
+    background-color: #68d8d6;
+    text-align: center;
+ }
+
+ .contactText {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #161925;
+    padding: 1em;
+ }
+
+ .salmonR {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+ .locationIcon {
+    width: 20px;
+ }
+
+ .socialMedia {
+    width: 40px;
+ }
+
+ .map {
+     padding: 1em;
+ }
+
+ .copyright {
+    text-align: center;
+    color: #f7f7f2;
+    background-color: #161925;
+    padding: 1em;
+    font-size: 15px;
+ }
+
+ .whiteLink {
+     color: #f7f7f2;
+ }
+
