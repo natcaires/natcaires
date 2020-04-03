@@ -24,13 +24,22 @@
         margin: 0 auto 1em auto;
     }
 
-    .mainTitle {
+    .mainTitle, .mainTitle2 {
         margin-top: 2.5em;
         padding-top: 0;
         padding-right: 0.2em;
+    }
+
+    .mainTitle {
         width: 480px;
         height: 80px;
         font-size: 65px;
+    }
+
+    .mainTitle2 {
+        width: 520px;
+        height: 90px;
+        font-size: 70px;
     }
 
     .weather {

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>River Guide | Snake River Adventures</title>
+            <meta name="description" content="Snake River Adventures website river guide page. Created for people to be able to meet a little about the life of our awesome guides before reseving an activity with one of them.">
+            <link rel="shortcut icon" href="images/favicon.ico">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/medium.css">
+            <link rel="stylesheet" href="css/large.css">
+        </head>
+
+        <body>
+            <header class="mainHeader">
+                <div class="websiteTitle">
+                    <a href="index.html"><img src="images/logo.png" alt="website logo" id="websitelogo"></a>
+                    <h2 class="navTitle">Snake River <br/> <span id="headerAdv">Adventures</span></h2>
+                </div>
+
+                <nav>
+                    <button onclick="toggleMenu()"><span id="menu">&#9776; Menu</span></button>
+                    <ul class="navbarList hide" id="primaryNav">
+                        <li class="navbarItem"><a href="#" class="active">River Guides</a></li>
+                        <li class="navbarItem"><a href="#">Contact Us</a></li>
+                        <li class="navbarItem"><a href="#">Reservation</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <section class="imgTitleWeather">
+                    <div class="sectionTitleText">
+                        <h1 class="mainTitle2">Meet Our Guides</h1>
+                    </div>
+
+                    <picture>
+                        <source srcset="images/ourguidespageLarge.jpeg" media="(min-width:1450px)">
+                        <img src="images/ourguidespageSmall.jpg" alt="people hiking" id="mainPhoto">
+                    </picture>
+                </section>
+
+                <section class="guide-section"></section>
+                
+                <section class="calltoActSec">
+                    <h1 class="callToAction">Make your reservation now!</h1>
+                    <a href="#" class="clickHere">Reserve</a>
+                </section>
+            </main>
+
+            <footer class="contactFooter">
+                <div class="contactInfo">
+                    <div class="contactText">
+                        <p class="contactI"><span class="salmonR">Salmon River Adventures</span><br/>
+                        <span><img class="locationIcon" src="images/locationIcon.png" alt="location icon"></span>30 N 1st E<br/>
+                                                                                            Riggins, ID 83549
+                         </p>
+
+                        <p class="contactI">&#9742; 999-999-9999<br/>
+                            &#9993; contact@salmonriver.com</p>
+
+                        <span class="socialMediaIcons">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"><img src="images/facebookIcon.png" alt="Facebook" class="socialMedia"></a>
+                        <a href="https://twitter.com/home" target="_blank" rel="noopener"><img src="images/twitterIcon.png" alt="Twitter" class="socialMedia"></a>
+                        <a href="https://www.pinterest.com/" target="_blank" rel="noopener"><img src="images/pinterestIcon.png" alt="Pinterest" class="socialMedia"></a>
+                        </span>
+                    </div>
+
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11201.865924826705!2d-116.32967111222136!3d45.42009712521644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c55ddc7fd9d5%3A0x835ef2ac6cb8432e!2sRiggins%2C%20Idaho%2083549!5e0!3m2!1ses-419!2sus!4v1585686685689!5m2!1ses-419!2sus" width="290" height="280" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                </div>
+                <div class="copyright">&copy; <span id="year"></span>Salmon River Adventures | Nataly Caires | Weather data from <a class="whiteLink" href="https://openweathermap.org/" target="_blank" rel="noopener">OpenWeather</a> | Images from <a href="https://www.pexels.com/" class="whiteLink" target="_blank" rel="noopener">Pexels</a>
+                <div id="todaysDate"></div>
+                </div>
+            </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Nunito Sans', 'Roboto Condensed']}});</script>
+            <script src="js/menuAndDate.js"></script>
+
+        </body>
+    </html>

@@ -78,6 +78,10 @@ nav ul li a:hover {
     color: #f7f7f2;
 }
 
+.active {
+    color: #f7f7f2;
+}
+
 /* ---------------- HOME MAIN ---------------*/
 
 /* Section 1*/
@@ -99,14 +103,21 @@ section img {
     color: #fff;  
 }
 
-.mainTitle {
+.mainTitle, .mainTitle2 {
     padding: 0.5em 1em 0 1em;
     position: absolute;
     margin-top: 2em;
     margin-right: 1em;
     background-color: #00bbd47c;
-    height: 60px;
     font-size: 20px;
+}
+
+.mainTitle {
+    height: 60px;
+}
+
+.mainTitle2 {
+    height: 30px;
 }
 
 #mainAdv {

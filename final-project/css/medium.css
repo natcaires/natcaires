@@ -31,7 +31,7 @@
 
     /* Section 1 */
 
-    .mainTitle {
+    .mainTitle, .mainTitle2 {
         margin-top: 3em;
         width: 300px;
         height: 70px;
