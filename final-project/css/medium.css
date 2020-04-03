@@ -1,0 +1,130 @@
+@media only screen and (min-width:700px){
+
+    /* ----------------- HEADER ------------- */
+    
+    .mainHeader {
+        display: flex;
+    }
+    
+    .hide {
+        display: flex;
+        position: absolute;
+        right: 0;
+        padding-left: 0;
+        width: 60%;
+        margin: 1.5em 1em;
+    }
+
+    .navbarItem {
+        width: 33.33%;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    nav ul a:hover {
+        color: #ffffff;
+    }
+
+    /* ------------------- HOME MAIN --------------- */
+
+    /* Section 1 */
+
+    .mainTitle {
+        margin-top: 3em;
+        width: 300px;
+        height: 70px;
+        font-size: 40px;
+    }
+
+    #mainAdv {
+        display: inline;
+        margin-left: 10px;
+    }
+
+    .weather {
+        width: 280px;
+        height: 347px;
+    }
+
+    h3.whiteH3 {
+        margin: 1.5em 1em 0.1em 1.5em;
+        font-size: 30px;
+
+    }
+
+    .summaryP {
+        margin: 1.3em 1em 0.2em 1em;
+        font-size: 25px;
+    }
+
+    /* Section 2 */
+
+    .activities {
+        width: 700px;
+        margin: 3em auto;
+    }
+
+    .activities-section .activitiesH4 {
+        font-size: 35px;
+    }
+
+    .guideH4 {
+        font-size: 25px;
+    }
+
+    .Pflex {
+        font-size: 22px;
+        margin: 0 auto 1em auto;
+        padding: 0.7em 0.7em 0.7em 1.5em;
+    }
+
+    .activitiesP1 {
+        width: 50%;
+        padding-right: 0.7em;
+    }
+    
+    .activitiesP2 {
+        width: 50%;
+        padding-left: 0.7em;
+    }
+
+    /* section 3 */
+
+    .callToAction {
+        font-size: 50px;
+        margin-bottom: 0;
+        padding: 1em;
+    }
+
+    .clickHere {
+        font-size: 30px;
+        padding: 0.5em 0.7em;
+        border-radius: 6px;
+    }
+
+    /* -------------------- FOOTER --------------------- */
+
+    .contactFooter {
+        text-align: center;
+    }
+
+    .contactInfo {
+        display: flex;
+        margin: 1em auto;    
+    }
+
+    .salmonR {
+        font-size: 22px;
+     }
+
+     .contactText {
+        margin: 2em 10% 1em 10%;
+     }
+
+     .copyright {
+        font-size: 17px;
+     }
+
+}

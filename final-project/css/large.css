@@ -1,0 +1,104 @@
+@media only screen and (min-width:1300px){
+
+    /*---------------- HEADER ---------------- */
+
+    .websiteTitle {
+        margin-left: 2em;
+    }
+
+    .hide {
+        width: 40%;
+        margin: 1.5em 0.5em;
+    }
+
+    .navbarItem {
+        text-align: center;
+    }
+
+    /* ------------------- HOME MAIN --------------- */
+
+    /* Section 1 */
+
+    .imgTitleWeather {
+        width: 100%;
+        margin: 0 auto 1em auto;
+    }
+
+    .mainTitle {
+        margin-top: 2.5em;
+        padding-top: 0;
+        padding-right: 0.2em;
+        width: 480px;
+        height: 80px;
+        font-size: 65px;
+    }
+
+    .weather {
+        height: 410px;
+    }
+
+    h3.whiteH3 {
+        margin-top: 2.5em;
+
+    }
+
+    /* Section 2 */
+
+    .activities {
+    width: 320px;
+    margin: 2em 0.5em;
+    }
+
+    .activities-section {
+        width: 1000px;
+        margin: 1em auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+    }
+
+    .activities-section .activitiesH4 {
+        font-size: 26px;
+    }
+
+    .guideH4 {
+        font-size: 20px;
+    }
+
+    .Pflex {
+        width: 80%;
+        font-size: 14px;
+        margin: 0 auto 1em auto;
+        padding: 0.7em 0.7em 0.7em 1.5em;
+    }
+
+    .activitiesP1 {
+        padding-right: 0.5em;
+    }
+        
+    .activitiesP2 {
+        padding-left: 0.5em;
+    }
+
+    /* Section 3 */
+
+    .calltoActSec {
+        width: 1000px;
+        height: 380px;
+        margin: 1em auto;
+    }
+
+    .callToAction {
+        font-size: 55px;
+        padding: 2em 1em 1em 1em;
+    }
+
+    .contactInfo {
+        justify-content: center;
+        margin: 1em auto;    
+    }
+
+    .contactText {
+        margin: auto 1em;
+    }
+}

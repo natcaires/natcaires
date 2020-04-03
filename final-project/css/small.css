@@ -14,6 +14,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .websiteTitle {
     display: flex;
+    width: 300px;
+    margin-right: 0;
 }
 
 .websiteTitle img {
@@ -84,12 +86,12 @@ section {
     width: 100%;
 }
 
-section img {
-    width: 100%;
+.imgTitleWeather {
+    position: relative;
 }
 
-img.rafting1 {
-   position: relative;
+section img {
+    width: 100%;
 }
 
 .sectionTitleText {
@@ -102,7 +104,7 @@ img.rafting1 {
     position: absolute;
     margin-top: 2em;
     margin-right: 1em;
-    background-color: rgba(0, 0, 0, 0.444);
+    background-color: #00bbd47c;
     height: 60px;
     font-size: 20px;
 }
@@ -110,6 +112,7 @@ img.rafting1 {
 #mainAdv {
     display: block;
 }
+
 .weather {
     background-color: #37b7b37c;
     position: absolute;
@@ -121,19 +124,24 @@ img.rafting1 {
 }
 
 h3.whiteH3 {
-    margin: 0.1em 1em 0.1em 1em;
+    margin: 0.5em 1em 0.1em 1em;
 }
 
 .summaryP {
     margin: 0.2em 1em 0.2em 1em;
     font-family: 'Roboto Condensed', 'sans-serif';
-    text-align: end;
+    text-align: center;
 }
 
 /* Section 2 */
 
 .activities-section {
     text-align: center;
+}
+
+.availableAct {
+    text-align: center;
+    font-size: 26px;
 }
 
 .activities {
@@ -147,7 +155,7 @@ h3.whiteH3 {
     width: 100%;
 }
 
-.activities-section .activitiesH4 {
+.activitiesH4 {
     font-size: 24px;
     margin-bottom: 0;
 }
@@ -219,9 +227,10 @@ hr {
  }
 
  .contactFooter {
-    margin-top: 2em;
+    margin: 2em auto 0 auto;
     background-color: #68d8d6;
     text-align: center;
+    justify-content: center;
  }
 
  .contactText {
