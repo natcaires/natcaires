@@ -1,9 +1,10 @@
-[
+{ 
+"guides": [
     {
         "name": "Sophie Meyer",
         "photo": "sophiemeyer.jpg",
         "certification": "Certified Guide",
-        "years": "3 years",
+        "years": "3 years of experience",
         "email": "sophiemeyer@salmonriver.com",
         "biography": "Born and raised in San Francisco, California. Sophie came to Idaho to study at Idaho State University, located in Pocatello, and live close to her grandparents. She met her husband, who is from Pocatello, during this time and decided to stay in Idaho to always be able to enjoy the fresh air on the mountains and become a Tour Guide."
     },
@@ -12,16 +13,16 @@
         "name": "John Sanders",
         "photo": "johnsanders.jpg",
         "certification": "Certified Guide",
-        "years": "4 years",
+        "years": "4 years of experience",
         "email": "johnsanders@salmonriver.com",
         "biography": "John is from New York, but was always a nature and mountains lover. He graduated from the University of Utah and decided to move to Idaho and become a Tour guide to be in contact with nature everyday."
     },
 
     {
-        "name": "Maggie CLune",
+        "name": "Maggie Clune",
         "photo": "maggieclune.jpg",
         "certification": "Expert Guide",
-        "years": "8 years",
+        "years": "8 years of experience",
         "email": "maggieclune@salmonriver.com",
         "biography": "Born and raised in Idaho Falls, Idaho. Maggie graduated from BYU Idaho. While on college she started to become a Tour Guide and has been working on this since then. All these years of experience made her one of the best guides we have today at Salmon River Adventures."
     },
@@ -30,9 +31,11 @@
         "name": "Michael Peterson",
         "photo": "michaelpeterson.jpg",
         "certification": "Expert Guide",
-        "years": "12 years",
+        "years": "12 years of experience",
         "email": "michaelpeterson@salmonriver.com",
         "biography": "Salmon River Adventures Founder. Original from Riggins Idaho, he graduated from BYU, worked on a business company for many years and decided he didn't want to be locked in an office anymore, so he came back to his home town and opened his own business where he can be in contact with nature everyday."
     }
     
 ]
+
+}

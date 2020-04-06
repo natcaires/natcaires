@@ -104,20 +104,22 @@ section img {
 }
 
 .mainTitle, .mainTitle2 {
-    padding: 0.5em 1em 0 1em;
     position: absolute;
     margin-top: 2em;
     margin-right: 1em;
     background-color: #00bbd47c;
-    font-size: 20px;
 }
 
 .mainTitle {
+    padding: 0.5em 1em 0 1em;
     height: 60px;
+    font-size: 20px;
 }
 
 .mainTitle2 {
-    height: 30px;
+    height: 27px;
+    padding: 0.2em 1em 0.2em 1.5em;
+    font-size: 23px;
 }
 
 #mainAdv {
@@ -135,7 +137,7 @@ section img {
 }
 
 h3.whiteH3 {
-    margin: 0.5em 1em 0.1em 1em;
+    margin: 0.5em 1em 0.1em 2em;
 }
 
 .summaryP {
@@ -166,7 +168,7 @@ h3.whiteH3 {
     width: 100%;
 }
 
-.activitiesH4 {
+.mainH4 {
     font-size: 24px;
     margin-bottom: 0;
 }
@@ -229,6 +231,27 @@ hr {
     padding: 0.5em 0.7em;
     border-radius: 6px;
 }
+
+/* --------------- GUIDES PAGE ---------------*/
+
+.guide-card {
+    width: 320px;
+    background-color: #00bcd4;
+    padding: 1em 0;
+    text-align: center;
+    margin: 2em auto;
+}
+
+.guide-img {
+    width: 90%;
+}
+
+.guideP {
+    font-family: 'Nunito Sans', sans-serif;
+    color: #f7f7f2;
+    padding: 0.5em 1.5em;
+}
+
 
 
 /* ---------------- FOOTER -------------------*/
