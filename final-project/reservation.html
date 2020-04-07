@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Reservation | Snake River Adventures</title>
+            <meta name="description" content="Snake River Adventures website reservation page. Contains a form for the user to fill with their name, email address andphone, then choose the activity they are interested in, the date they want to reserve, and which guide they want to take them, or if they don't want any guide.">
+            <link rel="shortcut icon" href="images/favicon.ico">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/medium.css">
+            <link rel="stylesheet" href="css/large.css">
+        </head>
+
+        <body>
+
+            <header class="mainHeader">
+                <div class="websiteTitle">
+                    <a href="index.html"><img src="images/logo.png" alt="website logo" id="websitelogo"></a>
+                    <h2 class="navTitle">Snake River <br/> <span id="headerAdv">Adventures</span></h2>
+                </div>
+
+                <nav>
+                    <button onclick="toggleMenu()"><span id="menu">&#9776; Menu</span></button>
+                    <ul class="navbarList hide" id="primaryNav">
+                        <li class="navbarItem"><a href="index.html">Home Page</a></li>
+                        <li class="navbarItem"><a href="river-guide.html">River Guides</a></li>
+                        <li class="navbarItem"><a href="contact-us.html">Contact Us</a></li>
+                        <li class="navbarItem"><a href="reservation.html" class="active">Reservation</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+
+                <section class="imgTitleWeather">
+                    <div class="sectionTitleText">
+                        <h1 class="mainTitle4">Reserve Now!</h1>
+                    </div>
+
+                    <picture>
+                        <source srcset="images/lakeLarge.jpg" media="(min-width:1450px)">
+                        <img src="images/lakeSmall.jpg" alt="people hiking" id="mainPhoto">
+                    </picture>
+                </section>
+
+                <h4 class="mainH4 availableAct">Available Activities</h4>
+
+                <section class="activities-section">
+
+                    <div class="activities">
+                        <img src="images/rafting2.jpg" alt="people rafting" class="activitiesImg">
+                        
+                        <h4 class="mainH4">Rafting</h4>
+                        <hr>
+                        <h4 class="guideH4">Guided Tour</h4>
+                        <div class="Pflex">
+                            <p class="activitiesP1">Services Provided:<br/>
+                                                    Activity Duration:<br/>
+                                                    Skill Level:<br/>
+                                                    Cost:
+                                                </p>
+                            
+                            <p class="activitiesP2">Equipment & Guide<br/>
+                                                    3 hours<br/>
+                                                    Beginner<br/>
+                                                    $500</p>
+                        </div>
+
+                        <h4 class="guideH4">Unguided Tour</h4>
+                        <div class="Pflex">
+                        <p class="activitiesP1">Services Provided:<br/>
+                                                Activity Duration:<br/>
+                                                Skill Level:<br/>
+                                                Cost:
+                        </p>
+                        <p class="activitiesP2">Equipment Only<br/>
+                                                4 hours<br/>
+                                                Advanced<br/>
+                                                $300</p>
+                        </div>
+                    </div>
+
+                    <div class="activities">
+                        <img src="images/kayaking.jpg" alt="kayaking guy" class="activitiesImg">
+                        
+                        <h4 class="mainH4">Kayaking</h4>
+                        <hr>
+                        <h4 class="guideH4">Guided Tour</h4>
+                        <div class="Pflex">
+                        <p class="activitiesP1">Services Provided:<br/>
+                                                Activity Duration:<br/>
+                                                Skill Level:<br/>
+                                                Cost:
+                        </p>
+                        <p class="activitiesP2">Equipment & Guide<br/>
+                                                2 hours<br/>
+                                                Beginner<br/>
+                                                $400</p>
+                        </div>
+
+                        <h4 class="guideH4">Unguided Tour</h4>
+                        <div class="Pflex">
+                        <p class="activitiesP1">Services Provided:<br/>
+                                                Activity Duration:<br/>
+                                                Skill Level:<br/>
+                                                Cost:
+                        </p>
+                        <p class="activitiesP2">Equipment Only<br/>
+                                                3 hours<br/>
+                                                Advanced<br/>
+                                                $200</p>
+                        </div>
+                    </div>
+
+                    <div class="activities">
+                        <img src="images/hiking-girl.jpeg" alt="hiking girl" class="activitiesImg">
+
+                        <h4 class="mainH4">Hiking</h4>
+                        <hr>
+                        <h4 class="guideH4">Guided Tour</h4>
+                        <div class="Pflex">
+                            <p class="activitiesP1">Services Provided:<br/>
+                                                    Activity Duration:<br/>
+                                                    Skill Level:<br/>
+                                                    Cost:
+                                                </p>
+                            
+                            <p class="activitiesP2">Equipment & Guide<br/>
+                                                    5 hours<br/>
+                                                    Beginner<br/>
+                                                    $300</p>
+                        </div>
+
+                        <h4 class="guideH4">Unguided Tour</h4>
+                        <div class="Pflex">
+                        <p class="activitiesP1">Services Provided:<br/>
+                                                Activity Duration:<br/>
+                                                Skill Level:<br/>
+                                                Cost:
+                        </p>
+                        <p class="activitiesP2">Equipment Only<br/>
+                                                6 hours<br/>
+                                                Advanced<br/>
+                                                $200</p>
+                        </div>
+                    </div>
+                </section>
+
+                <form method="get" action="thanks-reserve.html">
+                    <fieldset>
+                        <legend>Reservation Form</legend>
+
+                        <label class="top">Full Name *
+                            <input type="text" name="name" pattern="[A-Za-z] {5, }" required>
+                        </label>
+
+                        <label class="top">Email *
+                            <input type="email" name="email" placeholder="example@email.com" required>
+                        </label>
+
+                        <label class="top">Phone number
+                           <input type="tel" name="phone">
+                        </label>
+
+                        <label class="top">Desired Date 
+                            <input type="date">
+                         </label>
+
+                        <label for="types" class="top">Adventure Selection
+                            <input list="type-list" name="type" id="types">
+                        </label>
+                            <datalist id="type-list">
+                                <option value="Rafting"></option>
+                                <option value="Kayaking"></option>
+                                <option value="Hiking"></option>
+                            </datalist>
+
+                            <label class="top">Guide
+                                <select name="storm-region">
+                                    <option value="">Select Guide...&#9662;</option>
+                                    <option value="sophie-meyers">Sophie Meyers</option>
+                                    <option value="john-sanders">John Sanders</option>
+                                    <option value="maggie-clune">Maggie Clune</option>
+                                    <option value="michael-peterson">Michael Peterson</option>
+                                    <option value="no-guide">No Guide</option>
+                                </select>
+                            </label>
+
+                        <label class="top">Comments:
+                            <textarea></textarea>
+                        </label>
+
+                    </fieldset>
+
+                    <input type="submit" value="Submit" class="submit-buttom">
+
+                </form>
+
+            </main>
+
+            <footer class="contactFooter">
+                <div class="contactInfo">
+                    <div class="contactText">
+                        <p class="contactI"><span class="salmonR">Salmon River Adventures</span><br/>
+                        <span><img class="locationIcon" src="images/locationIcon.png" alt="location icon"></span>1000 S Main St.<br/>
+                                                                                            Riggins, ID 83549
+                         </p>
+
+                        <p class="contactI">&#9742; 999-999-9999<br/>
+                            &#9993; contact@salmonriver.com</p>
+
+                        <span class="socialMediaIcons">
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener"><img src="images/facebookIcon.png" alt="Facebook" class="socialMedia"></a>
+                        <a href="https://twitter.com/home" target="_blank" rel="noopener"><img src="images/twitterIcon.png" alt="Twitter" class="socialMedia"></a>
+                        <a href="https://www.pinterest.com/" target="_blank" rel="noopener"><img src="images/pinterestIcon.png" alt="Pinterest" class="socialMedia"></a>
+                        </span>
+                    </div>
+
+                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11201.865924826705!2d-116.32967111222136!3d45.42009712521644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c55ddc7fd9d5%3A0x835ef2ac6cb8432e!2sRiggins%2C%20Idaho%2083549!5e0!3m2!1ses-419!2sus!4v1585686685689!5m2!1ses-419!2sus" width="290" height="280" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+                </div>
+                <div class="copyright">&copy; <span id="year"></span>Salmon River Adventures | Nataly Caires | Weather data from <a class="whiteLink" href="https://openweathermap.org/" target="_blank" rel="noopener">OpenWeather</a> | Images from <a href="https://www.pexels.com/" class="whiteLink" target="_blank" rel="noopener">Pexels</a>
+                <div id="todaysDate"></div>
+                </div>
+            </footer>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Nunito Sans', 'Roboto Condensed']}});</script>
+            <script src="js/menuAndDate.js"></script>
+
+        </body>
+
+
+
+    </html>

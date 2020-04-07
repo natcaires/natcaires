@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Contact Us | Snake River Adventures</title>
+            <meta name="description" content="Snake River Adventures website contact thank you page. Informs user that their message was succesfully sent to us">
+            <link rel="shortcut icon" href="images/favicon.ico">
+            <link rel="stylesheet" href="css/normalize.css">
+            <link rel="stylesheet" href="css/small.css">
+            <link rel="stylesheet" href="css/medium.css">
+            <link rel="stylesheet" href="css/large.css">
+        </head>
+
+        <body>
+
+            <header class="mainHeader">
+                <div class="websiteTitle">
+                    <a href="index.html"><img src="images/logo.png" alt="website logo" id="websitelogo"></a>
+                    <h2 class="navTitle">Snake River <br/> <span id="headerAdv">Adventures</span></h2>
+                </div>
+
+                <nav>
+                    <button onclick="toggleMenu()"><span id="menu">&#9776; Menu</span></button>
+                    <ul class="navbarList hide" id="primaryNav">
+                        <li class="navbarItem"><a href="index.html">Home Page</a></li>
+                        <li class="navbarItem"><a href="river-guide.html">River Guides</a></li>
+                        <li class="navbarItem"><a href="contact-us.html" class="active">Contact Us</a></li>
+                        <li class="navbarItem"><a href="reservation.html">Reservation</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main>
+                <div class="thankyouMsg">
+                    <h1 class="thankyouH1">Thank you!</h1>
+                    <p class="thankyouP">Your message has been succesfully submited.</p>
+                </div>
+            </main>
+
+            <footer class="contactFooter thankyouFooter">
+                <div class="copyright">&copy; <span id="year"></span>Salmon River Adventures | Nataly Caires | Weather data from <a class="whiteLink" href="https://openweathermap.org/" target="_blank" rel="noopener">OpenWeather</a> | Images from <a href="https://www.pexels.com/" class="whiteLink" target="_blank" rel="noopener">Pexels</a>
+                <div id="todaysDate"></div>
+                </div>
+            </footer>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+            <script>WebFont.load({google: {families: ['Nunito Sans', 'Roboto Condensed']}});</script>
+            <script src="js/menuAndDate.js"></script>
+
+        </body>
+
+    </html>

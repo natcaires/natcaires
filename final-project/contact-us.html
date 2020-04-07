@@ -3,8 +3,8 @@
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>River Guide | Snake River Adventures</title>
-            <meta name="description" content="Snake River Adventures website river guide page. Created for people to be able to meet a little about the life of our awesome guides before reseving an activity with one of them.">
+            <title>Contact Us | Snake River Adventures</title>
+            <meta name="description" content="Snake River Adventures website contact page. Contains a form for the user to fill with their name, email address and any question they might have about our company services.">
             <link rel="shortcut icon" href="images/favicon.ico">
             <link rel="stylesheet" href="css/normalize.css">
             <link rel="stylesheet" href="css/small.css">
@@ -13,6 +13,7 @@
         </head>
 
         <body>
+
             <header class="mainHeader">
                 <div class="websiteTitle">
                     <a href="index.html"><img src="images/logo.png" alt="website logo" id="websitelogo"></a>
@@ -23,31 +24,55 @@
                     <button onclick="toggleMenu()"><span id="menu">&#9776; Menu</span></button>
                     <ul class="navbarList hide" id="primaryNav">
                         <li class="navbarItem"><a href="index.html">Home Page</a></li>
-                        <li class="navbarItem"><a href="river-guide.html" class="active">River Guides</a></li>
-                        <li class="navbarItem"><a href="contact-us.html">Contact Us</a></li>
+                        <li class="navbarItem"><a href="river-guide.html">River Guides</a></li>
+                        <li class="navbarItem"><a href="contact-us.html" class="active">Contact Us</a></li>
                         <li class="navbarItem"><a href="reservation.html">Reservation</a></li>
                     </ul>
                 </nav>
             </header>
 
             <main>
+
                 <section class="imgTitleWeather">
                     <div class="sectionTitleText">
-                        <h1 class="mainTitle2">Meet Our Guides</h1>
+                        <h1 class="mainTitle3">Send us your Questions</h1>
                     </div>
 
                     <picture>
-                        <source srcset="images/hikingLarge.jpeg" media="(min-width:1450px)">
-                        <img src="images/hikingSmall.jpg" alt="people hiking" id="mainPhoto">
+                        <source srcset="images/raftingLARGE.jpeg" media="(min-width:1450px)">
+                        <img src="images/rafting.jpg" alt="people hiking" id="mainPhoto">
                     </picture>
                 </section>
 
-                <section class="guide-section"></section>
-                
-                <section class="calltoActSec">
-                    <h1 class="callToAction">Make your reservation now!</h1>
-                    <a href="#" class="clickHere">Reserve</a>
-                </section>
+                <form method="get" action="thanks-contact.html">
+                    <fieldset>
+                        <legend>Your Information</legend>
+
+                        <label class="top">Full Name *
+                            <input type="text" name="name" pattern="[A-Za-z] {5, }" required>
+                        </label>
+
+                        <label class="top">Email *
+                            <input type="email" name="email" placeholder="example@email.com" required>
+                        </label>
+
+                        <label class="top">Phone number
+                           <input type="tel" name="phone">
+                        </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>What is your Question?</legend>
+
+                        <label class="top">
+                            <textarea></textarea>
+                        </label>
+                    </fieldset>
+
+                    <input type="submit" value="Submit" class="submit-buttom">
+
+                </form>
+
             </main>
 
             <footer class="contactFooter">
@@ -75,10 +100,13 @@
                 <div id="todaysDate"></div>
                 </div>
             </footer>
+
             <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
             <script>WebFont.load({google: {families: ['Nunito Sans', 'Roboto Condensed']}});</script>
             <script src="js/menuAndDate.js"></script>
-            <script src="js/guides-page.js"></script>
 
         </body>
+
+
+
     </html>

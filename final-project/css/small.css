@@ -54,7 +54,7 @@ nav button {
     border: none;
     font-size: 1em;
     margin: auto 39%;
-    padding: 0.5em;
+    padding: 0.2em;
     font-weight: lighter;
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -103,23 +103,17 @@ section img {
     color: #fff;  
 }
 
-.mainTitle, .mainTitle2 {
+.mainTitle, .mainTitle2, .mainTitle3, .mainTitle4 {
     position: absolute;
     margin-top: 2em;
     margin-right: 1em;
     background-color: #00bbd47c;
+    font-size: 23px;
 }
 
 .mainTitle {
     padding: 0.5em 1em 0 1em;
     height: 60px;
-    font-size: 20px;
-}
-
-.mainTitle2 {
-    height: 27px;
-    padding: 0.2em 1em 0.2em 1.5em;
-    font-size: 23px;
 }
 
 #mainAdv {
@@ -234,6 +228,11 @@ hr {
 
 /* --------------- GUIDES PAGE ---------------*/
 
+.mainTitle2 {
+    height: 27px;
+    padding: 0.2em 1em 0.2em 1.5em;
+}
+
 .guide-card {
     width: 320px;
     background-color: #00bcd4;
@@ -252,7 +251,127 @@ hr {
     padding: 0.5em 1.5em;
 }
 
+/* --------------- FORM PAGES --------------- */
 
+/* Section 1 */
+
+.mainTitle3, .mainTitle4 {
+    height: 27px;
+    padding: 0.2em 1em 0.2em 1.5em;
+}
+
+/* FORM */
+
+form {
+    text-align: center;
+    width: 95%;
+    margin: 1em auto;
+}
+
+form fieldset {
+    border: 1px solid #37b7b3;
+    border-radius: 3%;
+    margin: 1em 0;
+    border: none;
+    padding: .5rem 2%;
+    text-align: start;
+    background-color: #37b7b3;
+}
+
+form legend {
+    color: #37b7b3;
+    margin: 0 1rem;
+    padding: 0 .5rem 2rem 1rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+form label.top, form div, form label.severity {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 1em;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: .9rem;
+    font-weight: 500;
+    color: #f7f7f2;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    border: solid 1px #00bcd4;
+    border-radius: 4px;
+    padding: 0.75rem 0.2rem 1rem 0.2rem;
+    color: #555;
+    width: 90%;
+    max-width: 19rem;
+    background-color: #ffffff;
+}
+
+form label.sbs {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: .75rem 0 1rem 0;
+}
+
+form textarea {
+    width: 95%;
+    height: 100px;
+    background-color: #ffffff;
+    padding-top: 0;
+}
+
+form input.submit-buttom {
+    border: none;
+    border-radius: 7px;
+    background-color: #161925;
+    color: #ffffff;
+    padding: .75rem 1.5rem;
+    margin: 2rem auto;
+    text-align: center;
+    width: 96%;
+    max-width: 20rem;
+    cursor: pointer;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+form input.submit-button:hover {
+    background-color: #00bcd4;
+}
+
+form label.top input:required {
+    border-left: red solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+/* ---------------- THANK YOU PAGE -------------- */
+
+.thankyouMsg {
+    background-color: #00bcd4;
+    padding: 1em;
+    text-align: center;
+    width: 80%;
+    margin: 3em auto;
+}
+
+.thankyouH1 {
+    color: #fff;
+}
+
+.thankyouP {
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.thankyouFooter {
+    position: fixed;
+    bottom: 0
+}
 
 /* ---------------- FOOTER -------------------*/
 
@@ -295,8 +414,9 @@ hr {
     text-align: center;
     color: #f7f7f2;
     background-color: #161925;
-    padding: 1em 0;
+    padding: 1em;
     font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
  }
 
  .whiteLink {

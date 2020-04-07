@@ -11,7 +11,7 @@
         position: absolute;
         right: 0;
         padding-left: 0;
-        width: 60%;
+        width: 70%;
         margin: 1.5em 1em;
     }
 
@@ -31,18 +31,16 @@
 
     /* Section 1 */
 
-    .mainTitle, .mainTitle2 {
+    .mainTitle, .mainTitle2, .mainTitle3, .mainTitle4 {
         margin-top: 3em;
-        width: 300px;
         font-size: 40px;
+        height: 70px;
+        padding-bottom: 0;
+        padding-top: 20px;
     }
 
     .mainTitle {
-        height: 70px;
-    }
-
-    .mainTitle2 {
-        height: 50px;
+        width: 300px;
     }
 
     #mainAdv {
@@ -117,6 +115,10 @@
 
     /* --------------- GUIDES PAGE ---------------*/
 
+    .mainTitle2 {
+        width: 300px;
+    }
+
     .guide-card {
         width: 700px;
         padding: 1em 0;
@@ -125,6 +127,57 @@
     .guideP {
         font-size: 25px;
         padding: 0.5em 1.5em;
+    }
+
+    /* --------------- FORM PAGES --------------- */
+
+    /* Section 1 */
+
+    .mainTitle3 {
+        width: 380px;
+    }
+
+    .mainTitle4 {
+        
+    }
+
+    /* FORM */
+
+    form fieldset {
+        margin: 1em auto;
+        width: 30rem;
+    }
+
+    form legend {
+        font-size: 1.5rem;
+    }
+
+    form label.top, form div, form label.severity {
+        font-size: 1rem;
+    }
+
+    form label.top input, form label.top select {
+        max-width: 28rem;
+    }
+
+    form input.submit-buttom {
+        padding: .95rem 1.5rem;
+    }
+
+    /* ---------------- THANK YOU PAGE -------------- */
+
+    .thankyouMsg {
+    padding: 1em;
+    width: 70%;
+    margin: 5em auto;
+    }
+
+    .thankyouH1 {
+        font-size: 35px;
+    }
+
+    .thankyouP {
+        font-size: 25px;
     }
 
     /* -------------------- FOOTER --------------------- */
