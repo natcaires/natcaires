@@ -67,8 +67,9 @@
     /* Section 2 */
 
     .activities {
-        width: 700px;
+        width: 600px;
         margin: 3em auto;
+        padding-bottom: 1em;
     }
 
     .activities-section .mainH4 {
@@ -81,22 +82,6 @@
 
     .guideH4 {
         font-size: 25px;
-    }
-
-    .Pflex {
-        font-size: 22px;
-        margin: 0 auto 1em auto;
-        padding: 0.7em 0.7em 0.7em 1.5em;
-    }
-
-    .activitiesP1 {
-        width: 50%;
-        padding-right: 0.7em;
-    }
-    
-    .activitiesP2 {
-        width: 50%;
-        padding-left: 0.7em;
     }
 
     /* section 3 */
@@ -145,11 +130,11 @@
     }
 
     form legend {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
 
     form label.top, form div, form label.severity {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     form label.top input, form label.top select {
@@ -157,7 +142,7 @@
     }
 
     form input.submit-buttom {
-        padding: .95rem 1.5rem;
+        padding: 1rem 1.5rem;
     }
 
     /* ---------------- THANK YOU PAGE -------------- */
@@ -174,6 +159,30 @@
 
     .thankyouP {
         font-size: 25px;
+    }
+
+    /* ------------------- RESERVATION --------------- */
+    
+    .Pflex {
+        font-size: 22px;
+    }
+
+    .activitiesP1 {
+        width: 50%;
+        padding-right: 0.7em;
+    }
+    
+    .activitiesP2 {
+        width: 50%;
+        padding-left: 0.7em;
+    }
+
+    main ul {
+        margin: 1em 25% 1em 35%;
+    }
+    
+    main ul li {
+        font-size: 22px;
     }
 
     /* -------------------- FOOTER --------------------- */

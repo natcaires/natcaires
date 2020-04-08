@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 /* -------------- HEADER -------------- */
 
 .mainHeader {
-    background-color: #161925f4;
+    background-color: #161925;
     width: 100%;
 }
 .websiteTitle {
@@ -53,7 +53,7 @@ nav button {
     background-color: transparent;
     border: none;
     font-size: 1em;
-    margin: auto 39%;
+    margin: auto 39.5%;
     padding: 0.2em;
     font-weight: lighter;
     font-family: 'Roboto Condensed', sans-serif;
@@ -63,6 +63,10 @@ nav button {
     color: #f7f7f2;
 }
 
+nav ul {
+    padding-left: 0;
+}
+
 nav ul li a {
     display: block;
     padding: 0.8em 2%;
@@ -70,8 +74,7 @@ nav ul li a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-    text-align: start;
-    margin-left: 29%;
+    text-align: center;
 }
 
 nav ul li a:hover {
@@ -156,6 +159,7 @@ h3.whiteH3 {
     text-align: center;
     margin: 2em auto;
     background-color: #00bcd4;
+    padding-bottom: 1em;
 }
 
 .activitiesImg {
@@ -172,32 +176,6 @@ hr {
     width: 50%;
     height: 1px;
     background-color: #1619254e;
-}
-
-.guideH4 {
-    color: #fff;
-    margin-bottom: 0;
-}
-
-.Pflex {
-    display: flex;
-    width: 80%;
-    text-align: center;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 14px;
-    margin: 0 auto 1em auto;
-    padding: 0.7em 0.7em 0.7em 1.5em;
-    color: #f7f7f2;
-}
-
-.activitiesP1 {
-    padding-right: 0.5em;
-    text-align: end;
-}
-
-.activitiesP2 {
-    text-align: start;
-    padding-left: 0.5em;
 }
 
 /* Section 3 */
@@ -371,6 +349,46 @@ form label.top input:required:valid {
 .thankyouFooter {
     position: fixed;
     bottom: 0
+}
+
+/* --------------- RESERVATION ----------------- */
+
+.guideH4 {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.Pflex {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    margin: 0 auto 1em auto;
+    padding: 0.7em 0.7em 0.7em 1.5em;
+    color: #f7f7f2;
+}
+
+.activitiesP1 {
+    padding-right: 0.5em;
+    text-align: end;
+}
+
+.activitiesP2 {
+    text-align: start;
+    padding-left: 0.5em;
+}
+
+main ul {
+    margin: 0.5em 25% 1em 30%;
+}
+
+main ul li {
+    color: #f7f7f2;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    text-align: start;
+    padding: 0.3em 0;
 }
 
 /* ---------------- FOOTER -------------------*/

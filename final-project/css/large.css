@@ -100,17 +100,6 @@
         padding: 2em 1em 1em 1em;
     }
 
-    /* -------------------- FOOTER ------------------ */
-
-    .contactInfo {
-        justify-content: center;
-        margin: 1em auto;    
-    }
-
-    .contactText {
-        margin: auto 1em;
-    }
-
     /* -------------------- GUIDES PAGE ------------------- */
 
     .mainTitle2 {
@@ -161,6 +150,38 @@
         width: 400px;
     }
 
+    /* ------------------- RESERVATION --------------- */
+    
+    .Pflex {
+        font-size: 16px;
+    }
 
+    .activitiesP1 {
+        padding-right: 0.5em;
+    }
+    
+    .activitiesP2 {
+        padding-left: 0.5em;
+    }
+
+    main ul {
+        margin: 1em 25% 1em 35%;
+    }
+    
+    main ul li {
+        font-size: 15px;
+    }
+
+    
+    /* -------------------- FOOTER ------------------ */
+
+    .contactInfo {
+        justify-content: center;
+        margin: 1em auto;    
+    }
+
+    .contactText {
+        margin: auto 1em;
+    }
 
 }
