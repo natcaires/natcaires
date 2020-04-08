@@ -72,10 +72,6 @@
         padding-bottom: 1em;
     }
 
-    .activities-section .mainH4 {
-        font-size: 35px;
-    }
-
     .mainH4 {
         font-size: 35px;
     }
@@ -93,7 +89,7 @@
     }
 
     .clickHere {
-        font-size: 30px;
+        font-size: 25px;
         padding: 0.5em 0.7em;
         border-radius: 6px;
     }
@@ -130,11 +126,11 @@
     }
 
     form legend {
-        font-size: 1.7rem;
+        font-size: 30px;
     }
 
     form label.top, form div, form label.severity {
-        font-size: 1.1rem;
+        font-size: 25px;
     }
 
     form label.top input, form label.top select {
@@ -205,7 +201,7 @@
      }
 
      .copyright {
-        font-size: 17px;
+        font-size: 14px;
      }
 
 }

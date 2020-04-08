@@ -60,10 +60,6 @@
         justify-items: center;
     }
 
-    .activities-section .mainH4 {
-        font-size: 26px;
-    }
-
     .mainH4 {
         font-size: 30px;
     }
@@ -74,7 +70,7 @@
 
     .Pflex {
         width: 80%;
-        font-size: 14px;
+        font-size: 16px;
         margin: 0 auto 1em auto;
         padding: 0.7em 0.7em 0.7em 1.5em;
     }
@@ -96,8 +92,8 @@
     }
 
     .callToAction {
-        font-size: 55px;
-        padding: 2em 1em 1em 1em;
+        font-size: 70px;
+        padding: 1.2em;
     }
 
     /* -------------------- GUIDES PAGE ------------------- */
@@ -121,7 +117,7 @@
     }
 
     .guideP {
-        font-size: 17px;
+        font-size: 16px;
     }
 
     /* ---------------- THANK YOU PAGE -------------- */
